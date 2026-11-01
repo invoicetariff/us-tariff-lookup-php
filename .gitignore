@@ -1,0 +1,4 @@
+# Anchored to the repo root (bare names would also exclude bin/us-tariff's
+# parent path in other layouts — Go repo lesson).
+/vendor/
+/composer.lock

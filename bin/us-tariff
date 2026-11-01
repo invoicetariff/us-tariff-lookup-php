@@ -1,0 +1,107 @@
+#!/usr/bin/env php
+<?php
+
+/**
+ * us-tariff — CLI for the offline US tariff reference data bundled in
+ * invoicetariff/us-tariff-lookup. All commands print JSON to stdout with the
+ * ruleset version, data-as-of date and disclaimer attached.
+ */
+
+declare(strict_types=1);
+
+// Works from a repo checkout and from a composer vendor/ installation.
+$bootstrapped = false;
+foreach (
+    [
+        __DIR__ . '/../vendor/autoload.php',
+        __DIR__ . '/../../../autoload.php',
+    ] as $autoload
+) {
+    if (is_file($autoload)) {
+        require_once $autoload;
+        $bootstrapped = true;
+        break;
+    }
+}
+if (!$bootstrapped) {
+    require_once __DIR__ . '/../src/TariffLookup.php';
+}
+
+use InvoiceTariff\UsTariffLookup\TariffLookup;
+
+const USAGE = <<<TXT
+us-tariff — offline US tariff lookup (data bundled, no network)
+
+Usage:
+  us-tariff meta                     what's inside / which data version
+  us-tariff search <query> [limit]   find HTS codes (EN / 中文 / code prefix)
+  us-tariff changelog [limit]        recent rule changes (newest first)
+
+Examples:
+  us-tariff search "cotton t-shirt"
+  us-tariff search 保温杯
+  us-tariff changelog 5
+TXT;
+
+/**
+ * Every command prints JSON with rulesetVersion, dataAsOf and disclaimer
+ * attached (mirrors the Go/PyPI CLI envelope).
+ */
+function printEnvelope(array $result): void
+{
+    $meta = TariffLookup::meta();
+    echo json_encode(
+        [
+            'rulesetVersion' => $meta['rulesetVersion'],
+            'dataAsOf' => $meta['dataAsOf'],
+            'disclaimer' => $meta['disclaimer'],
+            'result' => $result,
+        ],
+        JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES
+    );
+    echo PHP_EOL;
+}
+
+$args = array_slice($argv, 1);
+if ($args === []) {
+    fwrite(STDERR, USAGE . PHP_EOL);
+    exit(2);
+}
+
+$command = array_shift($args);
+$meta = TariffLookup::meta();
+
+switch ($command) {
+    case 'meta':
+        printEnvelope($meta);
+        break;
+
+    case 'search':
+        if ($args === []) {
+            fwrite(STDERR, 'usage: us-tariff search <query>' . PHP_EOL);
+            exit(2);
+        }
+        $limit = 10;
+        // A trailing numeric arg is the limit, never part of the query
+        // ("search <query> [limit]" — mirrors the PyPI CLI).
+        if (count($args) >= 2 && ctype_digit((string) end($args))) {
+            $limit = (int) array_pop($args);
+        }
+        $query = implode(' ', $args);
+        $hits = TariffLookup::search($query, $limit);
+        printEnvelope(['count' => count($hits), 'hits' => $hits]);
+        break;
+
+    case 'changelog':
+        $limit = 10;
+        if (isset($args[0]) && ctype_digit((string) $args[0])) {
+            $limit = (int) $args[0];
+        }
+        $entries = TariffLookup::changelog($limit);
+        printEnvelope(['count' => count($entries), 'entries' => $entries]);
+        break;
+
+    default:
+        fwrite(STDERR, sprintf('unknown command "%s"%s%s%s', $command, PHP_EOL, PHP_EOL, USAGE . PHP_EOL));
+        exit(2);
+}

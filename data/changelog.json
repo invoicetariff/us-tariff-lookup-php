@@ -1,0 +1,1600 @@
+{
+  "version": "0.3.1",
+  "entries": [
+    {
+      "id": "2026-07-24-global301-relaunch",
+      "date": "2026-07-24",
+      "layer": "global301",
+      "status": "published",
+      "title": "全球 301 计划重建：分档税率生效（10% / 12.5%）",
+      "titleEn": "Global Section 301 program rebuilt: tiered rates take effect (10% / 12.5%)",
+      "summary": "按 FR 2026-15181（91 FR 47318）§1(a)，全球 301 计划于 2026-07-24 生效（在途货宽限至 7/28）：17 个经济体 10% 平档（加拿大、墨西哥、印度、印尼、马来西亚、英国等）；EU/台湾 MFN+301 合计封顶 10%，日韩瑞士封顶 12.5%；其余 38 个被调查经济体（含中国、越南、泰国、新加坡、巴西、香港）12.5% 平档；232 覆盖品、USMCA 合规货与 Annex I/II 豁免品免征。该层存在未决诉讼，最终以海关执行为准。",
+      "summaryEn": "Per FR 2026-15181 (91 FR 47318) §1(a), the global Section 301 program takes effect 2026-07-24 (in-transit grace to 7/28): a flat 10% tier for 17 economies (incl. Canada, Mexico, India, Indonesia, Malaysia, UK); combined MFN+301 caps of 10% (EU/TW) and 12.5% (JP/KR/CH); a flat 12.5% tier for the other 38 investigated economies (incl. China, Vietnam, Thailand, Singapore, Brazil, Hong Kong). Section 232-covered goods, USMCA-qualifying goods and Annex I/II exemptions are exempt. Litigation pending — CBP enforcement prevails.",
+      "affectedHts": "全税目（All HTS）",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "10% 平档（17 经济体）",
+          "labelEn": "Flat 10% tier (17 economies)",
+          "oldValue": "无（IEEPA 终止后空窗）",
+          "oldValueEn": "None (vacated with IEEPA)",
+          "newValue": "10%",
+          "newValueEn": "10%"
+        },
+        {
+          "label": "封顶档（EU/TW 10%，JP/KR/CH 12.5%）",
+          "labelEn": "Capped tiers (EU/TW 10%, JP/KR/CH 12.5%)",
+          "oldValue": "无",
+          "oldValueEn": "None",
+          "newValue": "MFN+301 合计封顶",
+          "newValueEn": "MFN + 301 combined cap"
+        },
+        {
+          "label": "12.5% 平档（38 经济体，含中国）",
+          "labelEn": "Flat 12.5% tier (38 economies, incl. China)",
+          "oldValue": "无",
+          "oldValueEn": "None",
+          "newValue": "12.5%（FR 原文已核实 2026-09-09）",
+          "newValueEn": "12.5% (verified against FR text 2026-09-09)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FR 2026-15181 — Notice of actions in Section 301 investigations",
+          "url": "https://www.federalregister.gov/documents/2026/07/28/2026-15181/notice-of-actions-in-section-301-investigations-of-acts-policies-and-practices-of-various-economies"
+        },
+        {
+          "title": "Morgan Lewis — US administration rebuilds global tariff program under Section 301",
+          "url": "https://www.morganlewis.com/pubs/2026/07/us-administration-rebuilds-global-tariff-program-under-section-301"
+        }
+      ],
+      "affectedHtsEn": "All HTS codes"
+    },
+    {
+      "id": "2026-08-01-232-copper",
+      "date": "2026-08-01",
+      "layer": "section232",
+      "status": "published",
+      "title": "Section 232 铜半成品 50% 生效",
+      "titleEn": "Section 232 copper semi-finished products at 50% effective",
+      "summary": "铜及铜半成品按 232 条款征收 50% 关税（第 74 章），与钢铁/铝同属金属互斥组：同组只取最高档。",
+      "summaryEn": "Copper and semi-finished copper articles face a 50% Section 232 tariff (chapter 74), sharing the metal mutual-exclusion group with steel/aluminium: only the highest rate applies within the group.",
+      "affectedHts": "第 74 章（Chapter 74）",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "铜半成品",
+          "labelEn": "Copper semi-finished",
+          "oldValue": "0%（MFN 之外无叠加）",
+          "oldValueEn": "No Section 232 duty",
+          "newValue": "50%",
+          "newValueEn": "50%"
+        }
+      ],
+      "sources": [
+        {
+          "title": "AFS Law — Section 232 proclamation overhaul",
+          "url": "https://www.afslaw.com/perspectives/customs-import-compliance-blog/the-president-signs-proclamation-overhauling-section"
+        }
+      ],
+      "affectedHtsEn": "Chapter 74"
+    },
+    {
+      "id": "2026-01-15-232-semiconductors",
+      "date": "2026-01-15",
+      "layer": "section232",
+      "status": "published",
+      "title": "Section 232 半导体 25% 生效",
+      "titleEn": "Section 232 semiconductors at 25% effective",
+      "summary": "半导体及其衍生产品按 232 条款征收 25% 关税（第 85 章范围示意，边界以 FR 附件为准）。",
+      "summaryEn": "Semiconductors and derivatives face a 25% Section 232 tariff (chapter 85 scope, indicative pending FR annex boundaries).",
+      "affectedHts": "第 85 章（Chapter 85，示意）",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "半导体",
+          "labelEn": "Semiconductors",
+          "oldValue": "无 232 税",
+          "oldValueEn": "No Section 232 duty",
+          "newValue": "25%",
+          "newValueEn": "25%"
+        }
+      ],
+      "sources": [
+        {
+          "title": "AFS Law — Section 232 proclamation overhaul",
+          "url": "https://www.afslaw.com/perspectives/customs-import-compliance-blog/the-president-signs-proclamation-overhauling-section"
+        }
+      ],
+      "affectedHtsEn": "Chapter 85 (indicative)"
+    },
+    {
+      "id": "2026-01-09-232-timber",
+      "date": "2026-01-09",
+      "layer": "section232",
+      "status": "published",
+      "title": "Section 232 软木木材 10% 生效（FR 2026-00327）",
+      "titleEn": "Section 232 softwood timber at 10% effective (FR 2026-00327)",
+      "summary": "软木木材与木材衍生品按 232 条款征收 10% 关税；原定 2027-01-01 的上调推迟。",
+      "summaryEn": "Softwood timber and derivative products face a 10% Section 232 tariff; the planned 2027-01-01 increase has been postponed.",
+      "affectedHts": "第 44 章（Chapter 44）",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "软木木材",
+          "labelEn": "Softwood timber",
+          "oldValue": "0%",
+          "oldValueEn": "0%",
+          "newValue": "10%",
+          "newValueEn": "10%"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FR 2026-00327 — Adjusting imports of timber, lumber and derivative products",
+          "url": "https://www.federalregister.gov/documents/2026/01/09/2026-00327/amendments-to-adjusting-imports-of-timber-lumber-and-their-derivative-products-into-the-united"
+        }
+      ],
+      "affectedHtsEn": "Chapter 44"
+    },
+    {
+      "id": "2025-11-01-232-autos",
+      "date": "2025-11-01",
+      "layer": "section232",
+      "status": "published",
+      "title": "Section 232 汽车及零部件 25% 生效",
+      "titleEn": "Section 232 autos & parts at 25% effective",
+      "summary": "乘用车、轻型卡车及关键零部件按 232 条款征收 25% 关税（第 87 章）；重型卡车 2025-11-01 起适用。汽车组与金属组互斥。",
+      "summaryEn": "Passenger vehicles, light trucks and key parts face a 25% Section 232 tariff (chapter 87); heavy trucks from 2025-11-01. Auto and metal groups are mutually exclusive.",
+      "affectedHts": "第 87 章（Chapter 87）",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "汽车及零部件",
+          "labelEn": "Autos & parts",
+          "oldValue": "2.5%（MFN）",
+          "oldValueEn": "2.5% (MFN)",
+          "newValue": "+25%（232）",
+          "newValueEn": "+25% (Section 232)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FR 2025-05930 — Adjusting imports of automobiles and automobile parts",
+          "url": "https://www.federalregister.gov/documents/2025/04/03/2025-05930/adjusting-imports-of-automobiles-and-automobile-parts-into-the-united-states"
+        }
+      ],
+      "affectedHtsEn": "Chapter 87"
+    },
+    {
+      "id": "2025-10-14-232-furniture",
+      "date": "2025-10-14",
+      "layer": "section232",
+      "status": "published",
+      "title": "Section 232 家具 25% 生效",
+      "titleEn": "Section 232 furniture at 25% effective",
+      "summary": "家具产品按 232 条款征收 25% 关税（第 94 章范围示意）；原定 2027-01-01 上调推迟。",
+      "summaryEn": "Furniture articles face a 25% Section 232 tariff (chapter 94 scope, indicative); the planned 2027-01-01 increase has been postponed.",
+      "affectedHts": "第 94 章（Chapter 94）",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "家具",
+          "labelEn": "Furniture",
+          "oldValue": "0%（多数 MFN Free）",
+          "oldValueEn": "0% (most MFN Free)",
+          "newValue": "25%",
+          "newValueEn": "25%"
+        }
+      ],
+      "sources": [
+        {
+          "title": "AFS Law — Section 232 proclamation overhaul",
+          "url": "https://www.afslaw.com/perspectives/customs-import-compliance-blog/the-president-signs-proclamation-overhauling-section"
+        }
+      ],
+      "affectedHtsEn": "Chapter 94"
+    },
+    {
+      "id": "2025-10-01-fy2026-fees",
+      "date": "2025-10-01",
+      "layer": "fees",
+      "status": "published",
+      "title": "FY2026 MPF/HMF 费率表生效（CSMS #65741993）",
+      "titleEn": "FY2026 MPF/HMF fee schedule effective (CSMS #65741993)",
+      "summary": "2026 财年商品处理费（MPF）为 0.3464%，下限 $33.58、上限 $651.50；港口维护费（HMF）0.125% 不变；邮政非正式报关固定规费档 $2.69 / $8.06 / $12.09。",
+      "summaryEn": "FY2026 Merchandise Processing Fee (MPF) is 0.3464% with a $33.58 minimum and $651.50 maximum; Harbor Maintenance Fee (HMF) stays 0.125%; informal entry fixed fees $2.69 / $8.06 / $12.09.",
+      "affectedHts": "规费（All formal & informal entries）",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "MPF 下限",
+          "labelEn": "MPF minimum",
+          "oldValue": "$32.71（FY2025）",
+          "oldValueEn": "$32.71 (FY2025)",
+          "newValue": "$33.58",
+          "newValueEn": "$33.58"
+        },
+        {
+          "label": "MPF 上限",
+          "labelEn": "MPF maximum",
+          "oldValue": "$634.62（FY2025）",
+          "oldValueEn": "$634.62 (FY2025)",
+          "newValue": "$651.50",
+          "newValueEn": "$651.50"
+        }
+      ],
+      "sources": [
+        {
+          "title": "CBP CSMS #65741993 — FY2026 user fees",
+          "url": "https://content.govdelivery.com/accounts/USDHSCBP/bulletins/3eb24a9"
+        }
+      ],
+      "affectedHtsEn": "Fees (all formal & informal entries)"
+    },
+    {
+      "id": "2026-02-24-ieepa-terminated",
+      "date": "2026-02-24",
+      "layer": "ieepa",
+      "status": "historical",
+      "title": "IEEPA 关税经最高法院裁定终止（历史层存档）",
+      "titleEn": "IEEPA tariffs struck down by the Supreme Court (archived as historical layer)",
+      "summary": "IEEPA 芬太尼/对等关税于 2026-02-24 终止。2025-02-04 至 2026-02-24 期间征收的 9903.01/9903.02 项下税款可经 CAPE 流程申请退税；本引擎保留该历史层用于申报日期回算。",
+      "summaryEn": "IEEPA fentanyl/reciprocal tariffs were terminated on 2026-02-24. Duties paid under 9903.01/9903.02 between 2025-02-04 and 2026-02-24 may be refundable via the CAPE process; the engine keeps this historical layer for back-dated calculations.",
+      "affectedHts": "全税目（All HTS）",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "IEEPA 税率",
+          "labelEn": "IEEPA rate",
+          "oldValue": "10%（2025-02-04 起征收）",
+          "oldValueEn": "10% (from 2025-02-04)",
+          "newValue": "终止（可申请退税）",
+          "newValueEn": "Terminated (refund process)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Holland & Knight — Supreme Court strikes down IEEPA tariffs",
+          "url": "https://www.hklaw.com/en/insights/publications/2026/02/supreme-court-strikes-down-ieepa-tariffs"
+        }
+      ],
+      "affectedHtsEn": "All HTS codes"
+    },
+    {
+      "id": "2026-09-29-232-pharma",
+      "date": "2026-09-29",
+      "layer": "section232",
+      "status": "published",
+      "title": "生效：Section 232 药品普适档 20%（2026-09-29 起）",
+      "titleEn": "In effect: Section 232 pharmaceuticals general tier 20% (from 2026-09-29)",
+      "summary": "药品 232 普适档已于 2026-09-29 起按 20% 征收（2030-04-02 起升至 100%）；仿制药与在美产能承诺企业存在豁免/调整通道。",
+      "summaryEn": "The pharma Section 232 general tier of 20% took effect on 2026-09-29 (rising to 100% on 2030-04-02); generics and companies with U.S. onshoring commitments may qualify for exemptions/adjustments.",
+      "affectedHts": "第 30 章（Chapter 30）",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "药品普适档",
+          "labelEn": "Pharma general tier",
+          "oldValue": "0%",
+          "oldValueEn": "0%",
+          "newValue": "20%",
+          "newValueEn": "20%"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FR 2026-09489 — Onshoring agreements (pharma) procedures",
+          "url": "https://www.federalregister.gov/documents/2026/05/13/2026-09489/procedures-to-apply-for-company-specific-onshoring-agreements-to-obtain-tariff-adjustments-for"
+        }
+      ],
+      "affectedHtsEn": "Chapter 30"
+    },
+    {
+      "id": "2026-10-01-fy2027-fees",
+      "date": "2026-10-01",
+      "layer": "fees",
+      "status": "published",
+      "title": "生效：FY2027 MPF 上下限上调（2026-10-01 起）",
+      "titleEn": "In effect: FY2027 MPF min/max increase (from 2026-10-01)",
+      "summary": "2026-10-01 起进入 2027 财年：MPF 下限 $34.58、上限 $670.86（91 FR 48398，2026-07-31 刊出；从价税率 0.3464% 不变）。本站费率表已自动切换：申报日 2026-10-01 起按新档计算。",
+      "summaryEn": "FY2027 starts 2026-10-01: MPF minimum $34.58 and maximum $670.86 (91 FR 48398, published 2026-07-31; the 0.3464% ad valorem rate is unchanged). The fee schedule on this site has switched automatically: entries dated 2026-10-01 onward use the new limits.",
+      "affectedHts": "规费（All formal entries）",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "MPF 下限",
+          "labelEn": "MPF minimum",
+          "oldValue": "$33.58",
+          "oldValueEn": "$33.58",
+          "newValue": "$34.58",
+          "newValueEn": "$34.58"
+        },
+        {
+          "label": "MPF 上限",
+          "labelEn": "MPF maximum",
+          "oldValue": "$651.50",
+          "oldValueEn": "$651.50",
+          "newValue": "$670.86",
+          "newValueEn": "$670.86"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Customs user fees adjusted for FY2027 — 91 FR 48398",
+          "url": "https://www.federalregister.gov/citation/91-FR-48398"
+        },
+        {
+          "title": "CSMS #69847323 — CBP FY2027 用户费调整公告（2026-10-01 生效，GovDelivery）",
+          "url": "https://content.govdelivery.com/accounts/USDHSCBP/bulletins/429c91b"
+        },
+        {
+          "title": "CBP — MPF article (Help Center)",
+          "url": "https://www.help.cbp.gov/s/article/Article-1128?language=en_US"
+        }
+      ],
+      "affectedHtsEn": "Fees (all formal entries)"
+    },
+    {
+      "id": "2026-09-27-us-china-board-of-trade",
+      "date": "2026-09-27",
+      "layer": "china301",
+      "status": "published",
+      "title": "白宫发布美中贸易委员会（Board of Trade）30-FOR-30 框架与双向商品清单",
+      "titleEn": "White House releases U.S.-China Board of Trade 30-FOR-30 framework and product lists",
+      "summary": "美中贸易委员会（5 月北京峰会宪章设立，9/25 国事访问期间落地运作）于 2026-09-27 公布 30-FOR-30 框架：双向各 300 亿美元非敏感商品「考虑给予更优惠关税待遇」——美自华方向为小家电、玩具、节日装饰品、儿童安全座椅，美对华方向为农产品、水产品、原木与木制品、化妆品、医疗器械。注意：公布的是拟减税清单（须经各自国内法定程序，美国侧待联邦公报落地），当前未改变任何税率、无生效日；雷达跟踪 FR 后续落地。",
+      "summaryEn": "The U.S.-China Board of Trade (chartered at the May 2026 Beijing summit, operationalized during the Sept 25 state visit) released the 30-FOR-30 framework on 2026-09-27: each side will consider reduced tariff treatment for $30 billion of non-sensitive goods — U.S. imports from China: small appliances, toys, holiday decorations, children's car seats; U.S. exports: agricultural goods, fish/seafood, logs and wood products, cosmetics, medical devices. Note: these are lists under consideration (implementation via each side's domestic legal process; U.S. side pending the Federal Register) — no tariff rates change today and no effective date exists yet; the Radar tracks FR follow-through.",
+      "affectedHts": "待定——30-FOR-30 中国进口清单 PDF（小家电、玩具、节日装饰品、儿童安全座椅等）",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "对华减税范围（拟）",
+          "labelEn": "China tariff reduction scope (proposed)",
+          "oldValue": "现行税率不变",
+          "oldValueEn": "Current rates unchanged",
+          "newValue": "300 亿美元非敏感商品拟减税（清单公布，FR 落地前不生效）",
+          "newValueEn": "$30B non-sensitive goods slated for reduced treatment (lists published; not effective until FR implementation)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "White House — U.S.-China Board of Trade (2026-09-27)",
+          "url": "https://www.whitehouse.gov/releases/2026/09/u-s-china-board-of-trade/"
+        },
+        {
+          "title": "White House Fact Sheet — Fair and Reciprocal Relationship with China, Historic State Visit (2026-09-25)",
+          "url": "https://www.whitehouse.gov/fact-sheets/2026/09/fact-sheet-president-donald-j-trump-advances-a-fair-and-reciprocal-relationship-with-china-while-hosting-historic-state-visit/"
+        }
+      ],
+      "affectedHtsEn": "TBD — 30-FOR-30 China Import List (small appliances, toys, holiday decorations, children's car seats, etc.)"
+    },
+    {
+      "id": "2027-01-10-china-truce-extension",
+      "date": "2027-01-10",
+      "layer": "china301",
+      "status": "upcoming",
+      "title": "预告：对华停战延长至 2027-01-10（2026-09-23 宣布，FR 落地待核）",
+      "titleEn": "Upcoming: China truce extended to 2027-01-10 (announced 2026-09-23, FR pending)",
+      "summary": "美财长 Bessent 于 2026-09-23（福克斯访谈，习主席访华盛顿期间）宣布釜山协定停战延长两个月：对等关税 24% 暂停、芬太尼税率、178 项对华 301 排除与港口费中止等停战要素由原 2026-11-10 到期改为 2027-01-10。注意：目前为部长声明（Politico/Reuters/CNBC 报道），联邦公报落地文号待核——FR 确认前，各条目按 FR 既有日期执行，雷达持续跟踪。",
+      "summaryEn": "Treasury Secretary Bessent announced on 2026-09-23 (Fox News interview, during President Xi's Washington visit) a two-month extension of the Busan-agreement truce: the truce elements — the 24% reciprocal suspension, the fentanyl rate, the 178 China 301 exclusions and the port-fee suspension — now run to 2027-01-10 instead of 2026-11-10. Note: a cabinet-secretary statement so far (per Politico/Reuters/CNBC); the Federal Register implementation is pending — until then, entries keep their FR-confirmed dates. The Radar tracks follow-through.",
+      "affectedHts": "停战覆盖范围（对等关税暂停/178 项 301 排除/港口费中止）",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "停战到期日",
+          "labelEn": "Truce end date",
+          "oldValue": "2026-11-10",
+          "oldValueEn": "2026-11-10",
+          "newValue": "2027-01-10（已宣布，待 FR 落地）",
+          "newValueEn": "2027-01-10 (announced; FR implementation pending)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "Politico — Bessent says US, China trade truce extended by 2 months (2026-09-23)",
+          "url": "https://www.politico.com/news/2026/09/23/u-s-china-trade-truce-extended-two-months-01091121"
+        },
+        {
+          "title": "Reuters — US, China agree to extend trade truce by two months",
+          "url": "https://www.reuters.com/world/asia-pacific/us-treasurys-bessent-chinas-he-meet-unfinished-business-before-trump-xi-summit-2026-09-23"
+        },
+        {
+          "title": "CNBC — U.S.-China trade truce extended, Bessent says (2026-09-24)",
+          "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html"
+        }
+      ],
+      "affectedHtsEn": "Truce scope (reciprocal suspension / 178 Section 301 exclusions / port-fee suspension)"
+    },
+    {
+      "id": "2026-11-10-china301-exclusions-expiry",
+      "date": "2026-11-10",
+      "layer": "china301",
+      "status": "upcoming",
+      "title": "预告：对华 301 产品排除清单到期（2026-11-10）",
+      "titleEn": "Upcoming: China Section 301 product exclusions expire (2026-11-10)",
+      "summary": "178 项对华 301 产品排除（含紧固件等）延长至 2026-11-10 到期；到期后相关 HTS 恢复征收对应清单税率（如 List 3 25%）。（2026-09-23 更新：美方宣布停战整体延长至 2027-01-10，FR 落地前本条仍按 2026-11-10 执行，见雷达 2027-01-10 条目。）",
+      "summaryEn": "178 China Section 301 product exclusions (incl. fasteners) run through 2026-11-10; after expiry the affected HTS codes revert to their list rates (e.g. List 3 at 25%) (2026-09-23 update: a two-month truce extension to 2027-01-10 was announced; until FR implementation this entry stands as of 2026-11-10 — see the 2027-01-10 Radar entry.)",
+      "affectedHts": "178 项排除对应的 HTS",
+      "affectedCount": 178,
+      "changes": [
+        {
+          "label": "排除有效期",
+          "labelEn": "Exclusion validity",
+          "oldValue": "2026-11-10 前豁免",
+          "oldValueEn": "Exempt through 2026-11-10",
+          "newValue": "到期恢复征收（预告）",
+          "newValueEn": "Revert to list rate (upcoming)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FR 2025-21671 — Notice of product exclusion extensions",
+          "url": "https://www.federalregister.gov/documents/2025/12/01/2025-21671/notice-of-product-exclusion-extensions-chinas-acts-policies-and-practices-related-to-technology"
+        }
+      ],
+      "affectedHtsEn": "HTS codes covered by the 178 exclusions"
+    },
+    {
+      "id": "2026-08-22-section338-canada",
+      "date": "2026-08-22",
+      "layer": "section338",
+      "status": "published",
+      "title": "Section 338：加拿大汽车、乳制品、酒类加征 50% 生效",
+      "titleEn": "Section 338: 50% additional duty on Canadian motor vehicles, dairy and alcoholic beverages takes effect",
+      "summary": "总统依 Tariff Act 1930 §338 对加拿大原产汽车（Proclamation 11048）、乳制品（11047）、酒类（11046）加征 50% 从价附加税，原定 8/19 生效，经 Proclamation 11056 暂停 3 天后于 2026-08-22 12:01 ET 起对报关货物征收。与其它各层关税相加；已被 Section 232 覆盖的商品及 WTO 民用航空器协定商品不适用。具体 HTS 范围以三份公告 Annex II 为准（附件为图片，引擎按部门级示意范围计算并提示）。加方 9/8 起对美反制不影响美国进口口径。",
+      "summaryEn": "Under Tariff Act §338 the President imposed a 50% ad valorem additional duty on Canadian-origin motor vehicles (Proclamation 11048), dairy (11047) and alcoholic beverages (11046). Originally effective 8/19, the start was moved by Proclamation 11056 to 12:01 a.m. ET on 2026-08-22. The duty stacks on all other layers; articles subject to Section 232 duties and WTO civil-aircraft-agreement articles are excluded. Exact HTS coverage is set by Annex II of each proclamation (image annex — the engine applies an indicative sector-level scope with a warning). Canada's 9/8 countermeasures do not affect the U.S. import stack.",
+      "affectedHts": "加拿大原产：汽车 8701–8705、乳制品 0401–0406、酒类 2203–2206/2208（示意范围，以 Annex II 为准）",
+      "affectedHtsEn": "Canadian origin: motor vehicles 8701–8705, dairy 0401–0406, alcoholic beverages 2203–2206/2208 (indicative; Annex II prevails)",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "加拿大汽车 / 乳制品 / 酒类附加税",
+          "labelEn": "Additional duty on Canadian vehicles / dairy / alcohol",
+          "oldValue": "无",
+          "oldValueEn": "None",
+          "newValue": "50%（2026-08-22 起）",
+          "newValueEn": "50% (from 2026-08-22)"
+        },
+        {
+          "label": "生效日",
+          "labelEn": "Effective date",
+          "oldValue": "2026-08-19（原公告）",
+          "oldValueEn": "2026-08-19 (original)",
+          "newValue": "2026-08-22（Proclamation 11056）",
+          "newValueEn": "2026-08-22 (Proclamation 11056)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FR 2026-14991 — Proclamation 11046 (alcoholic beverages), 91 FR 46639",
+          "url": "https://www.federalregister.gov/documents/2026/07/23/2026-14991/imposing-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of-the-united"
+        },
+        {
+          "title": "FR 2026-14992 — Proclamation 11047 (dairy), 91 FR 46653",
+          "url": "https://www.federalregister.gov/documents/2026/07/23/2026-14992/imposing-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of-the-united"
+        },
+        {
+          "title": "FR 2026-14997 — Proclamation 11048 (motor vehicles), 91 FR 46663",
+          "url": "https://www.federalregister.gov/documents/2026/07/23/2026-14997/imposing-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of-the-united"
+        },
+        {
+          "title": "FR 2026-17294 — Proclamation 11056 (temporary suspension; effective date → 2026-08-22), 91 FR 54789",
+          "url": "https://www.federalregister.gov/documents/2026/08/24/2026-17294/temporary-suspension-of-additional-duties-to-offset-canadian-discrimination-against-the-commerce-of"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-02-2026-17955",
+      "date": "2026-09-02",
+      "layer": "mfn",
+      "status": "published",
+      "title": "糖类配额资格证明（CQE）信息收集延展征求意见（程序性）",
+      "titleEn": "Request for extension of information collection: Certificates of Quota Eligibility for sugar TRQs (procedural)",
+      "summary": "美国农业部海外农业局依《文书削减法》就糖及含糖产品 WTO/FTA 关税配额项下「配额资格证明」（CQE，OMB 编号 0551-0014）信息收集的延展公开征求意见（截止 2026-11-03）。纯程序性文书公示，不调整任何税率或配额；原文未给出具体数值，详见 FR 原文。",
+      "summaryEn": "Per the Paperwork Reduction Act, USDA's Foreign Agricultural Service requests comments on extending the information collection for Certificates of Quota Eligibility (CQEs) covering sugar and sugar-containing products entered under WTO/FTA tariff-rate quotas (OMB Control No. 0551-0014; comments due November 3, 2026). Procedural notice only — no duty or quota changes; no specific values are given, see the FR text.",
+      "affectedHts": "第 17 章 糖及含糖产品（TRQ 项下，程序性公示）",
+      "affectedHtsEn": "Chapter 17 sugars and sugar-containing products (under TRQs; procedural notice)",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-17955 — Notice of a Request for Extension of a Currently Approved Information Collection",
+          "url": "https://www.federalregister.gov/documents/2026/09/02/2026-17955/notice-of-a-request-for-extension-of-a-currently-approved-information-collection"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-02-2026-17954",
+      "date": "2026-09-02",
+      "layer": "mfn",
+      "status": "upcoming",
+      "title": "2027 配额年度乳制品进口许可证费用 $325/张",
+      "titleEn": "Dairy TRQ import license fee for the 2027 quota year: $325 per license",
+      "summary": "美国农业部公布 2027 关税配额年度每张乳制品进口许可证收费 $325（7 CFR 6.33）：仅持证人可按配额内税率进口 HTS 项下乳制品。USDA 估算 2027 年度许可系统管理成本 $631,516（人员 $386,288 + 其他 $245,228），预计发证约 1,950 张，费用即按成本分摊核定。费用自 2027 配额年度适用。",
+      "summaryEn": "USDA announces a $325 fee per dairy import license for the 2027 tariff-rate quota year (7 CFR 6.33): only license holders may enter HTS dairy articles at in-quota rates. USDA estimates $631,516 in 2027 licensing administration costs ($386,288 staff + $245,228 other) across ~1,950 expected licenses, with the fee set on a cost-recovery basis. Applies from the 2027 quota year.",
+      "affectedHts": "HTS 乳制品关税配额项下商品（原文未列具体税号）",
+      "affectedHtsEn": "Dairy articles under HTS tariff-rate quotas (no specific codes listed in the notice)",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "2027 年度许可费",
+          "labelEn": "2027 license fee",
+          "oldValue": "上一配额年度费额（本通知未载明）",
+          "oldValueEn": "Prior-year fee (not stated in this notice)",
+          "newValue": "$325/张（成本分摊：$631,516 ÷ 预计 1,950 张）",
+          "newValueEn": "$325 per license (cost recovery: $631,516 ÷ est. 1,950 licenses)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FR 2026-17954 — Assessment of Fees for Dairy Import Licenses for the 2027 Tariff-Rate Import Quota Year",
+          "url": "https://www.federalregister.gov/documents/2026/09/02/2026-17954/assessment-of-fees-for-dairy-import-licenses-for-the-2027-tariff-rate-import-quota-year"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-02-2026-17953",
+      "date": "2026-09-02",
+      "layer": "mfn",
+      "status": "published",
+      "title": "WTO 农产品数量型保障触发水平年度更新（2026）",
+      "titleEn": "WTO agricultural quantity-based safeguard trigger levels updated for 2026",
+      "summary": "美国农业部依《乌拉圭回合协议法》第 405 条公布 2026 年度数量触发水平（取代此前通知值）：当进口量超过触发水平时可依 WTO《农业协定》第 5 条加征附加关税，附加关税见 HTS 第 99 章子章 IV。附件覆盖牛肉、羊肉、乳制品、各类奶酪、花生、糖类与棉花等 30+ 产品类别（按日历年或协定年度，如牛肉 608,799 MT；原料蔗糖 769,561 MT，2026/10–2027/9）。本通知更新触发量本身，不加征关税。",
+      "summaryEn": "Per Section 405 of the Uruguay Round Agreements Act, USDA publishes updated 2026 quantity trigger levels (superseding prior notices): additional duties may be imposed under Article 5 of the WTO Agreement on Agriculture when import volumes exceed trigger levels, with the additional duties found at HTS chapter 99 subchapter IV. The annex covers 30+ product categories — beef, mutton, dairy, cheeses, peanuts, sugars, cotton — on calendar- or marketing-year periods (e.g., beef 608,799 MT; raw cane sugar 769,561 MT for Oct 2026–Sep 2027). This notice updates trigger quantities only; no duties are imposed by it.",
+      "affectedHts": "HTS 第 99 章子章 IV 农产品保障措施项下产品（牛肉/乳制品/糖/花生/棉花等 30+ 类别）",
+      "affectedHtsEn": "Products under WTO agricultural safeguards at HTS chapter 99 subchapter IV (beef, dairy, sugar, peanuts, cotton, etc., 30+ categories)",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "年度触发量更新（附件 30+ 类别）",
+          "labelEn": "Annual trigger levels updated (30+ categories in annex)",
+          "oldValue": "上年度触发水平（被本通知取代）",
+          "oldValueEn": "Prior-year trigger levels (superseded by this notice)",
+          "newValue": "如牛肉 608,799 MT；无脂干乳 4,375,733 kg；切达奶酪 13,939,120 kg；原料蔗糖 769,561 MT（2026/10–2027/9）；完整清单见 FR 附件",
+          "newValueEn": "e.g., beef 608,799 MT; nonfat dry milk 4,375,733 kg; cheddar cheese 13,939,120 kg; raw cane sugar 769,561 MT (Oct 2026–Sep 2027); full list in the FR annex"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FR 2026-17953 — WTO Agricultural Quantity-Based Safeguard Trigger Levels",
+          "url": "https://www.federalregister.gov/documents/2026/09/02/2026-17953/wto-agricultural-quantity-based-safeguard-trigger-levels"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-02-2026-17952",
+      "date": "2026-09-02",
+      "layer": "mfn",
+      "status": "upcoming",
+      "title": "2027 配额年度乳制品许可附录调整：历史→抽签净转移 3,144,542 kg",
+      "titleEn": "Dairy TRQ licensing appendices adjusted for 2027: net 3,144,542 kg shifted from historical to lottery licenses",
+      "summary": "美国农业部依 7 CFR 6.34 公布 2027 配额年度乳制品许可附录修订：永久交回、吊销或未按 7 CFR 6.23 签发的历史许可（附录 1）额度转入抽签许可（附录 2）——附录 1 合计减少 3,144,542 kg 至 39,606,581 kg，附录 2 等额增至 70,157,914 kg；指定许可（附录 3 东京回合 / 附录 4 乌拉圭回合）不变。配额总量依据 HTS 第 4 章 Additional U.S. Notes。自 2027 配额年度适用。",
+      "summaryEn": "Per 7 CFR 6.34, USDA revises the dairy licensing appendices for the 2027 quota year: amounts from permanently surrendered, revoked, or unissued historical licenses (Appendix 1) transfer to lottery (nonhistorical) licenses (Appendix 2) — Appendix 1 falls by 3,144,542 kg to 39,606,581 kg and Appendix 2 rises by the same to 70,157,914 kg; designated licenses (Appendix 3 Tokyo Round / Appendix 4 Uruguay Round) are unchanged. Totals derive from HTS chapter 4 Additional U.S. Notes. Applies from the 2027 quota year.",
+      "affectedHts": "第 4 章（Chapter 4）乳制品关税配额",
+      "affectedHtsEn": "Chapter 4 dairy tariff-rate quotas",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "历史许可（附录 1）额度转入抽签许可（附录 2）",
+          "labelEn": "Historical license (Appendix 1) amounts transferred to lottery (Appendix 2)",
+          "oldValue": "转出前水平（2025 附录基数）",
+          "oldValueEn": "Pre-transfer levels (2025 appendix base)",
+          "newValue": "附录 1：39,606,581 kg；附录 2：70,157,914 kg（净转移 3,144,542 kg，附录 3/4 不变）",
+          "newValueEn": "Appendix 1: 39,606,581 kg; Appendix 2: 70,157,914 kg (net transfer 3,144,542 kg; Appendices 3/4 unchanged)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FR 2026-17952 — Adjustment of Appendices Under the Dairy Tariff-Rate Quota Import Licensing Regulation",
+          "url": "https://www.federalregister.gov/documents/2026/09/02/2026-17952/adjustment-of-appendices-under-the-dairy-tariff-rate-quota-import-licensing-regulation"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-02-2026-17926",
+      "date": "2026-09-02",
+      "layer": "mfn",
+      "status": "published",
+      "title": "CBP 供应链透明度进口披露 ANPRM（征求意见至 2026-12-01）",
+      "titleEn": "CBP ANPRM on heightened import disclosures for supply chain visibility (comments due 2026-12-01)",
+      "summary": "CBP 依 6 月 3 日「强化海关执法」行政令（E.O. 14411）第 3 条发布拟规预告（19 CFR 141/142/143/163，Docket USCBP-2026-1058），就三类要求征求意见：① 进口时提交外国出口单证（出口报关单、商业发票、装箱单、原产地证、出口许可证、运输单据），以核查双重发票与低报；② 强化制造商/发货人/出口商识别（评估改革或取代 MID、扩展全球商业标识符 GBI 试点）；③ 供应链溯源技术方案与 CTPAT 安全要求扩展。尚在征求意见阶段，未落地任何税率或申报义务；原文未给出具体数值，详见 FR 原文；后续拟以 NPRM 推进，潜在适用全税目。",
+      "summaryEn": "Implementing Section 3 of E.O. 14411 ('Strengthening Customs Enforcement', June 3, 2026), CBP issues an advance notice of proposed rulemaking (19 CFR parts 141/142/143/163, docket USCBP-2026-1058) seeking comments on: (1) submitting foreign export documentation at entry (export declarations, commercial invoices, packing lists, certificates of origin, export licenses, transport documents) to detect dual invoicing and undervaluation; (2) stronger manufacturer/shipper/exporter identification (redefining or replacing the MID, expanding the Global Business Identifier test); (3) supply-chain tracing technologies and expanded CTPAT security requirements. Comment stage only — no duty rates or filing obligations are imposed yet; no specific values are given, see the FR text. A follow-up NPRM is planned; potentially applicable to all HTS codes.",
+      "affectedHts": "全税目（潜在适用，尚在征求意见阶段）",
+      "affectedHtsEn": "All HTS codes (potentially applicable; comment stage)",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-17926 — Heightened Import Disclosures for Supply Chain Visibility",
+          "url": "https://www.federalregister.gov/documents/2026/09/02/2026-17926/heightened-import-disclosures-for-supply-chain-visibility"
+        }
+      ]
+    },
+    {
+      "id": "2026-07-01-2026-17925",
+      "date": "2026-07-01",
+      "layer": "china301",
+      "status": "published",
+      "title": "中国 301 产品排除跟进修订：4 条排除随 HTS 统计口径平移",
+      "titleEn": "China 301 product exclusions conforming amendments: 4 exclusions shifted with HTS statistical reporting changes",
+      "summary": "因 USITC 自 2026-07-01 起 HTS 十位统计报告类别调整，USTR 对中国 301 行动项下 4 条产品排除作跟进修订（HTS 第 99 章子章 III 美国注释 20(vvv)(i)(4)/(5)/(6) 与 20(vvv)(iv)(4)）：前三条延展描述为「至 2026-06-30；自 2026-07-01 起对应统计报告号 8413.91.9039 / 9046 / 9059 / 9099」；第四条为「2026-07-01 前；自 2026-07-01 起对应 3926.90.9915 / 3926.90.9920」。产品排除的实质覆盖范围不变，仅统计报告号平移，追溯至 2026-07-01 生效，CBP 将另行发布入境执行指引。",
+      "summaryEn": "Following USITC's July 1, 2026 changes to HTS ten-digit statistical reporting categories, USTR makes conforming amendments to four China 301 product exclusions (HTS chapter 99 subchapter III U.S. notes 20(vvv)(i)(4)/(5)/(6) and 20(vvv)(iv)(4)): the first three now read 'through June 30, 2026; described in statistical reporting numbers 8413.91.9039/9046/9059/9099 effective July 1, 2026'; the fourth reads 'prior to July 1, 2026; described in 3926.90.9915/3926.90.9920 effective July 1, 2026'. Substantive exclusion coverage is unchanged — only the statistical reporting numbers move — effective retroactive to July 1, 2026; CBP will issue entry guidance.",
+      "affectedHts": "统计报告号 8413.91.9039 / 9046 / 9059 / 9099、3926.90.9915 / 3926.90.9920",
+      "affectedHtsEn": "Statistical reporting numbers 8413.91.9039/9046/9059/9099 and 3926.90.9915/9920",
+      "affectedCount": 6,
+      "changes": [
+        {
+          "label": "排除 20(vvv)(i)(4)/(5)/(6) 统计口径平移",
+          "labelEn": "Exclusions 20(vvv)(i)(4)/(5)/(6): reporting numbers shifted",
+          "oldValue": "2026-06-30 前的统计报告号描述（原文未列）",
+          "oldValueEn": "Pre-7/1 statistical reporting numbers (not listed in the notice)",
+          "newValue": "自 2026-07-01 起：8413.91.9039 / 9046 / 9059 / 9099",
+          "newValueEn": "From 2026-07-01: 8413.91.9039 / 9046 / 9059 / 9099"
+        },
+        {
+          "label": "排除 20(vvv)(iv)(4) 统计口径平移",
+          "labelEn": "Exclusion 20(vvv)(iv)(4): reporting numbers shifted",
+          "oldValue": "3926.90.9910（2026-07-01 前）",
+          "oldValueEn": "3926.90.9910 (prior to 2026-07-01)",
+          "newValue": "自 2026-07-01 起：3926.90.9915 / 3926.90.9920",
+          "newValueEn": "From 2026-07-01: 3926.90.9915 / 3926.90.9920"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FR 2026-17925 — Notice of Conforming Amendments to Product Exclusions: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation",
+          "url": "https://www.federalregister.gov/documents/2026/09/02/2026-17925/notice-of-conforming-amendments-to-product-exclusions-chinas-acts-policies-and-practices-related-to"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-14-2026-18839",
+      "date": "2026-09-14",
+      "layer": "section338",
+      "status": "published",
+      "title": "Section 338：加拿大汽车附加税范围修订（Proclamation 11065，2026-09-15 生效）",
+      "titleEn": "Section 338: scope of Canadian motor-vehicle additional duty modified (Proclamation 11065, effective 2026-09-15)",
+      "summary": "依 FR 2026-18839（91 FR 58339），Proclamation 11065 修订 Proclamation 11048 确定的加拿大汽车 50% 附加税范围：Annex I Part A 所列产品纳入征税、Part B 所列产品移出征税，并相应修改 HTSUS（Annex II），自 2026-09-15 12:01 ET 起对报关进口或出仓进口货物生效；50% 税率不变，与 Section 232 等各层关税相加。理由表述为修改范围仍足以抵消加方歧视对美国商业的负担且更符合公共利益。附件为图片，具体 HTS 清单以原文 Annex 为准；原文未给出具体数值，详见 FR 原文。",
+      "summaryEn": "Per FR 2026-18839 (91 FR 58339), Proclamation 11065 modifies the scope of the 50% additional duty on Canadian motor vehicles under Proclamation 11048: products listed in Annex I Part A become subject to the duty and products in Part B are removed, with conforming HTSUS changes (Annex II), effective for goods entered for consumption, or withdrawn from warehouse for consumption, on or after 12:01 a.m. ET September 15, 2026. The 50% rate is unchanged and stacks on Section 232 and other layers. The stated rationale is that the modified scope still offsets the burden on U.S. commerce and better serves the public interest. Annexes are image-only — exact HTS lists follow the FR annexes; no specific values are given, see the FR text.",
+      "affectedHts": "加拿大原产：汽车 8701–8705 范围内调整（示意范围，以 Proclamation 11065 Annex I 为准，附件为图片）",
+      "affectedHtsEn": "Canadian origin: adjustments within motor vehicles 8701–8705 (indicative; Proclamation 11065 Annex I prevails; image annex)",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "附加税范围（新增纳入）",
+          "labelEn": "Duty scope (added)",
+          "oldValue": "按 Proclamation 11048 Annex II",
+          "oldValueEn": "Per Proclamation 11048 Annex II",
+          "newValue": "Annex I Part A 所列产品纳入 50% 附加税（附件为图片）",
+          "newValueEn": "Annex I Part A products added to the 50% duty (image annex)"
+        },
+        {
+          "label": "附加税范围（移出）",
+          "labelEn": "Duty scope (removed)",
+          "oldValue": "按 Proclamation 11048 Annex II",
+          "oldValueEn": "Per Proclamation 11048 Annex II",
+          "newValue": "Annex I Part B 所列产品移出 50% 附加税（附件为图片）",
+          "newValueEn": "Annex I Part B products removed from the 50% duty (image annex)"
+        },
+        {
+          "label": "生效时间",
+          "labelEn": "Effective date",
+          "oldValue": "2026-08-22（Proclamation 11048 生效口径）",
+          "oldValueEn": "2026-08-22 (Proclamation 11048 effective date)",
+          "newValue": "2026-09-15 12:01 ET（本次范围修订适用起点）",
+          "newValueEn": "2026-09-15 12:01 a.m. ET (scope changes apply from this point)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FR 2026-18839 — Proclamation 11065 (motor vehicles scope modification), 91 FR 58339",
+          "url": "https://www.federalregister.gov/documents/2026/09/14/2026-18839/modifying-the-scope-of-products-of-canada-subject-to-the-additional-duties-imposed-to-offset"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-14-2026-18838",
+      "date": "2026-09-14",
+      "layer": "section338",
+      "status": "published",
+      "title": "Section 338：加拿大酒类附加税范围修订（Proclamation 11064，2026-09-15 生效）",
+      "titleEn": "Section 338: scope of Canadian alcoholic-beverage additional duty modified (Proclamation 11064, effective 2026-09-15)",
+      "summary": "依 FR 2026-18838（91 FR 58331），Proclamation 11064 修订 Proclamation 11046 确定的加拿大酒类 50% 附加税范围：Annex I Part A 所列产品纳入征税、Part B 所列产品移出征税，并相应修改 HTSUS（Annex II），自 2026-09-15 12:01 ET 起对报关进口或出仓进口货物生效；50% 税率不变，与 Section 232 等各层关税相加。附件为图片，具体 HTS 清单以原文 Annex 为准；原文未给出具体数值，详见 FR 原文。",
+      "summaryEn": "Per FR 2026-18838 (91 FR 58331), Proclamation 11064 modifies the scope of the 50% additional duty on Canadian alcoholic beverages under Proclamation 11046: products listed in Annex I Part A become subject to the duty and products in Part B are removed, with conforming HTSUS changes (Annex II), effective for goods entered for consumption, or withdrawn from warehouse for consumption, on or after 12:01 a.m. ET September 15, 2026. The 50% rate is unchanged and stacks on Section 232 and other layers. Annexes are image-only — exact HTS lists follow the FR annexes; no specific values are given, see the FR text.",
+      "affectedHts": "加拿大原产：酒类 2203–2206/2208 范围内调整（示意范围，以 Proclamation 11064 Annex I 为准，附件为图片）",
+      "affectedHtsEn": "Canadian origin: adjustments within alcoholic beverages 2203–2206/2208 (indicative; Proclamation 11064 Annex I prevails; image annex)",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "附加税范围（新增纳入）",
+          "labelEn": "Duty scope (added)",
+          "oldValue": "按 Proclamation 11046 Annex II",
+          "oldValueEn": "Per Proclamation 11046 Annex II",
+          "newValue": "Annex I Part A 所列产品纳入 50% 附加税（附件为图片）",
+          "newValueEn": "Annex I Part A products added to the 50% duty (image annex)"
+        },
+        {
+          "label": "附加税范围（移出）",
+          "labelEn": "Duty scope (removed)",
+          "oldValue": "按 Proclamation 11046 Annex II",
+          "oldValueEn": "Per Proclamation 11046 Annex II",
+          "newValue": "Annex I Part B 所列产品移出 50% 附加税（附件为图片）",
+          "newValueEn": "Annex I Part B products removed from the 50% duty (image annex)"
+        },
+        {
+          "label": "生效时间",
+          "labelEn": "Effective date",
+          "oldValue": "2026-08-22（Proclamation 11046 生效口径）",
+          "oldValueEn": "2026-08-22 (Proclamation 11046 effective date)",
+          "newValue": "2026-09-15 12:01 ET（本次范围修订适用起点）",
+          "newValueEn": "2026-09-15 12:01 a.m. ET (scope changes apply from this point)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FR 2026-18838 — Proclamation 11064 (alcoholic beverages scope modification), 91 FR 58331",
+          "url": "https://www.federalregister.gov/documents/2026/09/14/2026-18838/modifying-the-scope-of-products-of-canada-subject-to-the-additional-duties-imposed-to-offset"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-15-2026-18834",
+      "date": "2026-09-15",
+      "layer": "mfn",
+      "status": "published",
+      "title": "CBP 商业量重/实验室资质认定：Bennett Testing Service（程序性）",
+      "titleEn": "CBP commercial gauger/laboratory approval: Bennett Testing Service (procedural)",
+      "summary": "CBP 依海关监管规定公告：Bennett Testing Service, Inc.（Rahway, NJ）获准为商业量重机构（commercial gauger）与商业实验室（commercial laboratory），可承担石油及部分石油制品的海关量重与检测，自 2025-08-28 起三年有效（91 FR 58463）。纯检验资质公示，不调整任何税率或申报义务；原文未给出具体数值，详见 FR 原文。",
+      "summaryEn": "Per CBP regulations, CBP announces that Bennett Testing Service, Inc. (Rahway, NJ) is approved as a commercial gauger and accredited as a commercial laboratory to gauge and test petroleum and certain petroleum products for customs purposes for three years as of August 28, 2025 (91 FR 58463). Accreditation notice only — no duty or filing changes; no specific values are given, see the FR text.",
+      "affectedHts": "石油及部分石油制品（检验资质公示，程序性）",
+      "affectedHtsEn": "Petroleum and certain petroleum products (inspection-accreditation notice; procedural)",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-18834 — Accreditation and Approval of Bennett Testing Service, Inc. (Rahway, NJ), 91 FR 58463",
+          "url": "https://www.federalregister.gov/documents/2026/09/15/2026-18834/accreditation-and-approval-of-bennett-testing-service-inc-rahway-nj-as-a-commercial-gauger-and"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-15-2026-18833",
+      "date": "2026-09-15",
+      "layer": "mfn",
+      "status": "published",
+      "title": "CBP 商业量重机构认定：Saybolt LP（Pittsburgh, PA）（程序性）",
+      "titleEn": "CBP commercial gauger approval: Saybolt LP (Pittsburgh, PA) (procedural)",
+      "summary": "CBP 依海关监管规定公告：Saybolt LP（Pittsburgh, PA）获准为商业量重机构（commercial gauger），可承担石油及部分石油制品的海关量重，自 2025-09-03 起三年有效（91 FR 58464）。纯检验资质公示，不调整任何税率或申报义务；原文未给出具体数值，详见 FR 原文。",
+      "summaryEn": "Per CBP regulations, CBP announces that Saybolt LP (Pittsburgh, PA) is approved as a commercial gauger to gauge petroleum and certain petroleum products for customs purposes for three years as of September 3, 2025 (91 FR 58464). Approval notice only — no duty or filing changes; no specific values are given, see the FR text.",
+      "affectedHts": "石油及部分石油制品（检验资质公示，程序性）",
+      "affectedHtsEn": "Petroleum and certain petroleum products (inspection-approval notice; procedural)",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-18833 — Approval of Saybolt LP (Pittsburgh, PA), as a Commercial Gauger, 91 FR 58464",
+          "url": "https://www.federalregister.gov/documents/2026/09/15/2026-18833/approval-of-saybolt-lp-pittsburgh-pa-as-a-commercial-gauger"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-15-2026-18832",
+      "date": "2026-09-15",
+      "layer": "mfn",
+      "status": "published",
+      "title": "CBP 商业量重/实验室资质认定：Saybolt LP（Deer Park, TX）（程序性）",
+      "titleEn": "CBP commercial gauger/laboratory approval: Saybolt LP (Deer Park, TX) (procedural)",
+      "summary": "CBP 依海关监管规定公告：Saybolt LP（Deer Park, TX）获准为商业量重机构（commercial gauger）与商业实验室（commercial laboratory），可承担石油及部分石油制品的海关量重与检测，自 2025-10-29 起三年有效（91 FR 58463）。纯检验资质公示，不调整任何税率或申报义务；原文未给出具体数值，详见 FR 原文。",
+      "summaryEn": "Per CBP regulations, CBP announces that Saybolt LP (Deer Park, TX) is approved as a commercial gauger and accredited as a commercial laboratory to gauge and test petroleum and certain petroleum products for customs purposes for three years as of October 29, 2025 (91 FR 58463). Accreditation notice only — no duty or filing changes; no specific values are given, see the FR text.",
+      "affectedHts": "石油及部分石油制品（检验资质公示，程序性）",
+      "affectedHtsEn": "Petroleum and certain petroleum products (inspection-accreditation notice; procedural)",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-18832 — Accreditation and Approval of Saybolt LP (Deer Park, TX), 91 FR 58463",
+          "url": "https://www.federalregister.gov/documents/2026/09/15/2026-18832/accreditation-and-approval-of-saybolt-lp-deer-park-tx-as-a-commercial-gauger-and-laboratory"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-09-2026-18385",
+      "date": "2026-09-09",
+      "layer": "section338",
+      "status": "published",
+      "title": "USITC 就 Section 338(g) 履职方式公开征求意见（截止 2026-11-09）",
+      "titleEn": "USITC requests comments on implementing Section 338(g) (comments due 2026-11-09)",
+      "summary": "依 Tariff Act 1930 §338(g)，USITC 负有持续查明他国对美商业歧视（§338(a)/(b)/(e)）并向总统提供信息与建议的法定职责。委员会现就如何更好履行该职责公开征求意见（91 FR 57387，截止 2026-11-09）。程序性征求意见，不直接调整税率，但 §338 是当前对加拿大汽车/乳制品/酒类加征 50% 附加税的法律基础，且 §338 还授权总统可对维持歧视的国家实施进口禁止，此次履职评估值得跟踪；原文未给出具体数值，详见 FR 原文。",
+      "summaryEn": "Under Section 338(g) of the Tariff Act of 1930, the USITC must continuously ascertain discriminations against U.S. commerce under Section 338(a), (b) and (e) and advise the President. The Commission invites comments on how best to meet this statutory duty (91 FR 57387; comments due November 9, 2026). Procedural comment request with no direct duty change — but Section 338 is the legal basis of the current 50% additional duties on Canadian motor vehicles/dairy/alcoholic beverages and also authorizes import exclusion, so this implementation review is worth tracking; no specific values are given, see the FR text.",
+      "affectedHts": "无直接税目（§338 机制潜在影响范围以未来行动为准）",
+      "affectedHtsEn": "No direct HTS codes (potential Section 338 scope subject to future actions)",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-18385 — Request for Comments Regarding Implementation of 19 U.S.C. 1338(g), 91 FR 57387",
+          "url": "https://www.federalregister.gov/documents/2026/09/09/2026-18385/request-for-comments-regarding-implementation-of-19-usc-1338g"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-09-2026-18302",
+      "date": "2026-09-09",
+      "layer": "mfn",
+      "status": "published",
+      "title": "ITC 337 调查（Glow Fish Tape/安全帽系统）：部分复审并就救济征求意见（程序性）",
+      "titleEn": "ITC Section 337 (glow fish tape/safety helmet systems): review-in-part of violation ID; submissions on remedy (procedural)",
+      "summary": "USITC 公告决定部分复审主审首席行政法官在 Inv. 337-TA-1442 中认定违反 §337 的最终初裁，并就复审问题及救济措施、保证金、公共利益征求书面意见（91 FR 57383）。属知识产权类进口救济程序，现阶段不产生任何关税税率变化；若后续发布有限排除令将影响相关产品进口，届时再行跟踪。原文未给出具体数值，详见 FR 原文。",
+      "summaryEn": "The USITC has determined to review in part the final initial determination finding a Section 337 violation in Inv. 337-TA-1442 and solicits briefing on the issues under review, remedy, bonding and the public interest (91 FR 57383). This is an IP-based import-relief proceeding with no tariff-rate effect at this stage; any later limited exclusion order would affect imports of the involved products and would be tracked then. No specific values are given, see the FR text.",
+      "affectedHts": "Glow Fish Tape 系统与安全帽系统相关产品（以调查裁决为准）",
+      "affectedHtsEn": "Glow fish tape systems and safety helmet systems (subject to the investigation outcome)",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-18302 — Certain Glow Fish Tape Systems, Safety Helmet Systems, and Components Thereof (Inv. 337-TA-1442), 91 FR 57383",
+          "url": "https://www.federalregister.gov/documents/2026/09/09/2026-18302/certain-glow-fish-tape-systems-safety-helmet-systems-and-components-thereof-notice-of-a-commission"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-10-2026-18424",
+      "date": "2026-09-10",
+      "layer": "mfn",
+      "status": "published",
+      "title": "SEC 拟废止投资顾问政治捐款（pay-to-play）规则（非关税公告）",
+      "titleEn": "SEC proposes to rescind the investment-adviser pay-to-play rule (non-tariff notice)",
+      "summary": "证券交易委员会（SEC）提议废止《投资顾问法》项下禁止顾问在政治捐款后两年内向政府客户提供有偿建议的「政治捐款」规则（Release No. IA-6994；File No. S7-2026-31；3235-AN65），并配套修订账簿记录规则，征求意见截止 2026-11-09（91 FR 57698）。属金融监管领域，与美国进口关税计算无关，不影响任何税目税率。",
+      "summaryEn": "The SEC proposes to rescind the Investment Advisers Act 'political contributions' (pay-to-play) rule barring compensated advisory services to government clients for two years after covered contributions (Release No. IA-6994; File No. S7-2026-31; RIN 3235-AN65), with conforming books-and-records amendments; comments due November 9, 2026 (91 FR 57698). Financial-regulation matter unrelated to U.S. import duty calculation — no HTS code or duty rate affected.",
+      "affectedHts": "无（金融监管公告，不涉税目）",
+      "affectedHtsEn": "None (financial-regulation notice; no HTS codes)",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-18424 — Political Contributions by Certain Investment Advisers, 91 FR 57698",
+          "url": "https://www.federalregister.gov/documents/2026/09/10/2026-18424/political-contributions-by-certain-investment-advisers"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-09-2026-18382",
+      "date": "2026-09-09",
+      "layer": "mfn",
+      "status": "published",
+      "title": "PHMSA 汽油公路运输州侵权索赔联邦优先认定（非关税公告）",
+      "titleEn": "PHMSA determination preempting state tort claims on gasoline transportation (non-tariff notice)",
+      "summary": "交通部管道与危险物料安全管理局（PHMSA）应 Exxon Mobil 申请作出最终行政认定：联邦危险物料法规（HMR）优先于新泽西州针对汽油安全运输的州普通法侵权索赔，与 HMR 实质不同的州法主张均被优先（91 FR 57439）。属危险物料运输监管领域，与美国进口关税计算无关，不影响任何税目税率。",
+      "summaryEn": "PHMSA issues a final administrative determination, on Exxon Mobil's application, that federal law preempts New Jersey state common-law tort claims concerning the safe transportation of gasoline; state-law claims not substantively the same as the HMR provisions are preempted (91 FR 57439). Hazmat-transport regulatory matter unrelated to U.S. import duty calculation — no HTS code or duty rate affected.",
+      "affectedHts": "无（运输监管公告，不涉税目）",
+      "affectedHtsEn": "None (transport-regulation notice; no HTS codes)",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-18382 — Hazardous Materials: Notice of Administrative Determination of Preemption for Common Law Tort Claims Concerning the Transportation of Gasoline, 91 FR 57439",
+          "url": "https://www.federalregister.gov/documents/2026/09/09/2026-18382/hazardous-materials-notice-of-administrative-determination-of-preemption-for-common-law-tort-claims"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-2026-19191",
+      "date": "2026-10-01",
+      "layer": "mfn",
+      "status": "published",
+      "title": "生效：AGOA 撒哈拉以南非洲受惠国区域/第三国面料成衣免税进口新数量限额（2026-10-01 起）",
+      "titleEn": "In effect: new AGOA quantitative limit on duty-free apparel assembled in beneficiary sub-Saharan African countries from regional/third-country fabric (from 2026-10-01)",
+      "summary": "纺织品协定实施委员会（CITA）依 TDA 2000 §112(b)(3)（经 Pub. L. 119-103 §2008 修订）公布 2026-10-01 至 2027-09-30 年度撒哈拉以南非洲受惠国区域/第三国面料成衣免税进口总量限额：1,690,799,016 平方米当量（为前 12 个月美国成衣进口总量平方米当量的 7% 上限），其中最不发达受惠国特别规则（面料来源不限）子限额 845,399,508 平方米当量（3.5%），91 FR 59114。为总量限额而非按国别分配；超限进口按其他适用关税征收，不调整税目税率。该优惠待遇已延至 2028-12-31。",
+      "summaryEn": "Per section 112(b)(3) of TDA 2000 (as amended by section 2008 of Pub. L. 119-103), CITA publishes the October 1, 2026 - September 30, 2027 aggregate limit on duty-free apparel assembled in beneficiary sub-Saharan African countries from regional/third-country fabric: 1,690,799,016 square meter equivalents (a 7% cap on aggregate apparel imports of the preceding 12 months), of which 845,399,508 SME (3.5%) is available under the lesser-developed country special rule (fabric origin unrestricted), 91 FR 59114. This is an aggregate limit, not a per-country allocation; entries in excess are dutiable at otherwise applicable rates and no tariff rates are changed. The preference program runs through December 31, 2028.",
+      "affectedHts": "撒哈拉以南非洲受惠国区域/第三国面料成衣（AGOA §112(b)(3) 免税待遇范围）",
+      "affectedHtsEn": "Apparel assembled in beneficiary sub-Saharan African countries from regional/third-country fabric (AGOA section 112(b)(3) duty-free scope)",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-19191 — Limitations of Duty-Free Imports of Apparel Articles Assembled in Beneficiary Sub-Saharan African Countries From Regional and Third-Country Fabric, 91 FR 59114",
+          "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19191/limitations-of-duty-free-imports-of-apparel-articles-assembled-in-beneficiary-sub-saharan-african"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-18-2026-19175",
+      "date": "2026-09-18",
+      "layer": "mfn",
+      "status": "published",
+      "title": "ITC 337 立案调查（音频技术电子设备，Inv. 337-TA-1521）：BoomCloud 360 专利侵权指控（程序性）",
+      "titleEn": "ITC Section 337 institution (Inv. 337-TA-1521): certain electronic devices with certain audio technologies — BoomCloud 360 patent complaint (procedural)",
+      "summary": "USITC 公告对「特定含音频技术的电子设备」发起 337 调查（Inv. 337-TA-1521；91 FR 59161）：BoomCloud 360 Inc.（Encinitas, CA）于 2026-08-14 提起申诉、2026-08-31 补充，指控相关产品进口及在美国销售侵犯其第 10,524,078、11,533,560、11,051,121 号美国专利，请求委员会经调查后发布有限排除令与停止令。属知识产权类进口救济程序，立案本身不改变任何关税税率；若后续发布有限排除令将影响相关产品进口，届时再行跟踪。",
+      "summaryEn": "The USITC has instituted Section 337 investigation 337-TA-1521 on certain electronic devices with certain audio technologies (91 FR 59161): BoomCloud 360 Inc. of Encinitas, California filed a complaint on August 14, 2026 (supplemented August 31, 2026) alleging infringement of U.S. Patent Nos. 10,524,078, 11,533,560 and 11,051,121, and requesting a limited exclusion order and cease-and-desist orders. This is an IP-based import-relief proceeding; institution itself changes no tariff rates. Any later limited exclusion order affecting imports of the involved products would be tracked then.",
+      "affectedHts": "含特定音频技术的电子设备（以调查裁决为准）",
+      "affectedHtsEn": "Certain electronic devices with certain audio technologies (subject to the investigation outcome)",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-19175 — Certain Electronic Devices With Certain Audio Technologies; Notice of Institution of Investigation (Inv. 337-TA-1521), 91 FR 59161",
+          "url": "https://www.federalregister.gov/documents/2026/09/18/2026-19175/certain-electronic-devices-with-certain-audio-technologies-notice-of-institution"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-17-2026-19045",
+      "date": "2026-09-17",
+      "layer": "mfn",
+      "status": "published",
+      "title": "ITC 337 调查（球囊扩张设备，Inv. 337-TA-1449）：部分复审违反 §337 初裁、就救济征求意见并将目标日延至 2026-11-13（程序性）",
+      "titleEn": "ITC Section 337 (Inv. 337-TA-1449, balloon dilation devices): review-in-part of violation ID, submissions on remedy, target date extended to 2026-11-13 (procedural)",
+      "summary": "USITC 公告决定部分复审主审首席行政法官认定违反 §337 的最终初裁（Inv. 337-TA-1449），就复审问题及救济措施、公共利益、保证金征求书面意见，并将调查完成目标日延至 2026-11-13（91 FR 58914）。属知识产权类进口救济程序，现阶段不产生任何关税税率变化；若后续发布有限排除令将影响相关产品进口，届时再行跟踪。",
+      "summaryEn": "The USITC has determined to review in part the final initial determination finding a Section 337 violation in Inv. 337-TA-1449, requests written submissions on the issues under review and on remedy, the public interest and bonding, and has extended the target date for completing the investigation to November 13, 2026 (91 FR 58914). This is an IP-based import-relief proceeding with no tariff-rate effect at this stage; any later limited exclusion order would affect imports of the involved products and would be tracked then.",
+      "affectedHts": "球囊扩张设备、系统及部件相关产品（以调查裁决为准）",
+      "affectedHtsEn": "Balloon dilation devices, systems and components thereof (subject to the investigation outcome)",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-19045 — Certain Balloon Dilation Devices, Systems, and Components Thereof; Commission Determination To Review in Part a Final Initial Determination (Inv. 337-TA-1449), 91 FR 58914",
+          "url": "https://www.federalregister.gov/documents/2026/09/17/2026-19045/certain-balloon-dilation-devices-systems-and-components-thereof-notice-of-a-commission-determination"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-17-2026-19073",
+      "date": "2026-09-17",
+      "layer": "mfn",
+      "status": "published",
+      "title": "CBP 信息收集修订公示：二手自走车辆出口申报（程序性）",
+      "titleEn": "CBP information collection revision: exportation of used self-propelled vehicles (procedural)",
+      "summary": "CBP 依《文书削减法》（PRA）就「二手自走车辆出口」信息收集修订发布 60 日公示（91 FR 58909），征求意见截止 2026-11-16。属文书行政公示，不调整任何税率或申报义务；原文未给出具体数值，详见 FR 原文。",
+      "summaryEn": "Under the Paperwork Reduction Act (PRA), CBP has published a 60-day notice for revision of the information collection on exportation of used self-propelled vehicles (91 FR 58909); comments are due by November 16, 2026. This is a paperwork-administration notice that changes no tariff rates or filing obligations; no specific values are given, see the FR text.",
+      "affectedHts": "无（文书行政公示，不涉税目）",
+      "affectedHtsEn": "None (paperwork notice; no HTS codes)",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-19073 — Agency Information Collection Activities; Revision; Exportation of Used Self-Propelled Vehicles, 91 FR 58909",
+          "url": "https://www.federalregister.gov/documents/2026/09/17/2026-19073/agency-information-collection-activities-revision-exportation-of-used-self-propelled-vehicles"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-2026-19292",
+      "date": "2026-09-22",
+      "layer": "mfn",
+      "status": "published",
+      "title": "CBP 季度公告：2026 年第四季度海关税款欠税/退税适用 IRS 利率（程序性，不改变关税税率）",
+      "titleEn": "CBP quarterly notice: Q4 2026 IRS interest rates on customs-duty underpayments/refunds (procedural; no tariff-rate change)",
+      "summary": "美国海关与边境保护局（CBP）按 19 U.S.C. 1505 与 T.D. 85-93 惯例发布季度利率公告（91 FR 60141）：自 2026-10-01 起的日历季度（至 2026-12-31），海关税款欠税（underpayment）利率为 7%（企业与个人相同），退税（overpayment）利率为非企业 7%、企业 6%——依据 IRS Revenue Ruling 2026-15（联邦短期利率 4% 分别加 3/2 个百分点）。属季度例行利息公告，不改变任何关税税率。注意：FR 摘要称利率「与上季持平」，正文补充信息却称「较上季上调」，原文两处表述不一致，本条以公告所列具体利率为准；原文未给出上季数值，详见 FR 原文。",
+      "summaryEn": "In its quarterly notice (91 FR 60141), CBP advises, per 19 U.S.C. 1505 and T.D. 85-93, that for the calendar quarter beginning October 1, 2026 (through December 31, 2026), interest on underpayments of customs duties is 7% for both corporations and non-corporations, and overpayment interest is 7% for non-corporations and 6% for corporations — per IRS Revenue Ruling 2026-15 (4% federal short-term rate plus 3/2 percentage points). Routine quarterly interest notice; no tariff rate is changed. Note: the FR SUMMARY says the rates remain the same as the prior quarter, while the supplementary text says they increase — the document is internally inconsistent; this entry records the rates as stated. Prior-quarter values are not given; see the FR document.",
+      "affectedHts": "无税目影响（适用于全部海关税款欠税/退税账户的利息计算）",
+      "affectedHtsEn": "No HTS impact (applies to interest on all customs underpayment/overpayment accounts)",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "欠税（underpayment）利率，2026-Q4",
+          "labelEn": "Underpayment interest rate, Q4 2026",
+          "oldValue": "原文未列上季数值",
+          "oldValueEn": "Prior-quarter rate not stated in the notice",
+          "newValue": "7%（企业与个人相同）",
+          "newValueEn": "7% (corporate and non-corporate)"
+        },
+        {
+          "label": "退税（overpayment）利率，非企业",
+          "labelEn": "Overpayment interest rate, non-corporate",
+          "oldValue": "原文未列上季数值",
+          "oldValueEn": "Prior-quarter rate not stated in the notice",
+          "newValue": "7%",
+          "newValueEn": "7%"
+        },
+        {
+          "label": "退税（overpayment）利率，企业",
+          "labelEn": "Overpayment interest rate, corporate",
+          "oldValue": "原文未列上季数值",
+          "oldValueEn": "Prior-quarter rate not stated in the notice",
+          "newValue": "6%",
+          "newValueEn": "6%"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FR 2026-19292 — Quarterly IRS Interest Rates Used in Calculating Interest on Overdue Accounts and Refunds of Customs Duties, 91 FR 60141",
+          "url": "https://www.federalregister.gov/documents/2026/09/22/2026-19292/quarterly-irs-interest-rates-used-in-calculating-interest-on-overdue-accounts-and-refunds-of-customs"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-22-2026-19308",
+      "date": "2026-09-22",
+      "layer": "mfn",
+      "status": "published",
+      "title": "FDIC 银行并购交易审批程序改革拟案征求意见（非关税公告）",
+      "titleEn": "FDIC proposed rule to reform Bank Merger Act transaction processing (non-tariff notice)",
+      "summary": "联邦存款保险公司（FDIC）就改革《银行合并法》（BMA）项下并购交易受理与评估程序的拟案公开征求意见（91 FR 60196；RIN 3064-AG18；拟修订 12 CFR 303/314/333），征求意见截止 2026-11-23。要点：竞争效应初评纳入信用社与集中记账存款；对「极小型并购交易」（de minimis merger transactions）设立函件申报与「视为批准」机制；按交易规模与风险画像分级压缩申报负担与处理时限；限定 FDIC 将申报移出加速处理的裁量并成文化法定因素评估。属银行监管领域，与美国进口关税计算无关，不影响任何税目税率。",
+      "summaryEn": "The FDIC invites comment on a proposed rule (91 FR 60196; RIN 3064-AG18; amending 12 CFR parts 303, 314, and 333) that would reform how it processes and evaluates merger transactions under the Bank Merger Act; comments are due November 23, 2026. Key points: accounting for credit unions and centrally booked deposits in the initial competitive-effects analysis; a letter-filing process with \"deemed approval\" for de minimis merger transactions; tailoring filing burdens and processing times to a transaction's size and risk profile; and limiting FDIC discretion to remove filings from expedited processing while codifying its statutory-factor evaluation. Bank-regulation matter unrelated to U.S. import duty calculation — no HTS code or duty rate affected.",
+      "affectedHts": "无（银行监管拟案，不涉税目）",
+      "affectedHtsEn": "None (bank-regulation proposal; no HTS codes)",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-19308 — Merger Transactions, 91 FR 60196",
+          "url": "https://www.federalregister.gov/documents/2026/09/22/2026-19308/merger-transactions"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-2026-19498",
+      "date": "2026-09-23",
+      "layer": "section232",
+      "status": "published",
+      "title": "药品 232 关税落地指导：特殊药品 0% 税率资格与 HTSUS 技术修正（91 FR 60360）",
+      "titleEn": "Commerce/BIS guidance implementing Section 232 pharmaceutical tariff adjustments: zero-rate eligibility for specialty pharmaceuticals and HTSUS technical corrections (91 FR 60360)",
+      "summary": "商务部产业安全局（BIS）发布 Proclamation 11020（2026-04-02 药品 232 公告，对部分专利药及关联成分征 100% 从价关税，2026-09-29 起对附件 III 以外所有公司生效）的实施指导（91 FR 60360）：(1) 界定 clause 3(d) 项下可获 0% 从价税率的特殊药品类别——孤儿药、核医学、血浆衍生疗法、生育药、细胞治疗产品、基因治疗产品、抗体药物偶联物（ADC）、CBRN 医疗对策及动物健康产品；(2) 列出 19 个合格法域（欧盟、英国、日本、韩国、瑞士和列支敦士登、台湾、印度、印尼、越南、泰国、马来西亚等），名单可在后续公告调整；(3) 规定「紧急美国健康需求」逐案审批程序（pharma232@bis.doc.gov，须报 10 位 HTSUS 分类，随到随审，仅限 Annex I 税号项下的专利药）；(4) HTSUS 技术修正：新增 9903.04.70（仅用于临床试验、研发或其他非商业用途的药品及关联成分，原适用税率 + 0%）、U.S. note 40 (a) 范围改为 9903.04.60-9903.04.70、替换 Annex I (c) 清单 149 个税号（同步纳入 2026-07-01 HTSUS 统计调整）、澄清 pharmaceutical articles/generic pharmaceutical articles 定义（后者纳入未专利动物健康产品）、Annex IV 更新 521 个税号并删除与 Annex I 重叠的 5 个码。修正自 2026-09-29 12:01 a.m. ET 起对入境消费或出仓消费货物生效。",
+      "summaryEn": "The Bureau of Industry and Security (BIS) issued implementation guidance for Presidential Proclamation 11020 (April 2, 2026 Section 232 pharmaceutical proclamation imposing a 100% ad valorem tariff on certain patented pharmaceuticals and associated ingredients, effective September 29, 2026 for all companies other than those listed in Annex III) (91 FR 60360): (1) it defines the specialty pharmaceutical categories eligible for a 0% ad valorem rate under clause 3(d) — orphan drugs, nuclear medicines, plasma derived therapies, fertility drugs, cell therapy products, gene therapy products, antibody drug conjugates, CBRN medical countermeasures, and animal health products; (2) it lists 19 eligible jurisdictions (EU, UK, Japan, Korea, Switzerland and Liechtenstein, Taiwan, India, Indonesia, Vietnam, Thailand, Malaysia, etc.), subject to change in future notices; (3) it sets out an individual, fact-specific approval process for imports meeting an urgent U.S. health need (pharma232@bis.doc.gov, 10-digit HTSUS classification required, rolling submissions, limited to patented products under Annex I codes); and (4) it makes HTSUS technical corrections: new heading 9903.04.70 (pharmaceutical articles and associated ingredients solely for clinical trials, R&D, or other non-commercial applications, at applicable subheading duty + 0%), U.S. note 40 subdivision (a) range revised to 9903.04.60-9903.04.70, subdivision (c) list replaced with 149 HTSUS codes (incorporating the July 1, 2026 HTSUS changes), clarified definitions of pharmaceutical articles/generic pharmaceutical articles (the latter now covering unpatented animal health products), and Annex IV updated with 521 codes while removing 5 codes overlapping Annex I. Effective for entries for consumption, or withdrawal from warehouse for consumption, on or after 12:01 a.m. ET September 29, 2026.",
+      "affectedHts": "HTSUS 第 99 章子章 III：9903.04.70（新增，0%）；9903.04.67 / 9903.04.69（定义与文字修正）；U.S. note 40 (c) 清单 149 个税号；Proclamation 11020 Annex IV 更新 521 个税号（删除重叠码 2937.23.50、3002.13.00、3002.14.00、3002.15.00、3004.49.00）",
+      "affectedHtsEn": "HTSUS chapter 99 subchapter III: new heading 9903.04.70 (0%); definition/text corrections to 9903.04.67 and 9903.04.69; 149 codes in U.S. note 40 subdivision (c); Proclamation 11020 Annex IV updated with 521 codes (overlapping codes removed: 2937.23.50, 3002.13.00, 3002.14.00, 3002.15.00, 3004.49.00)",
+      "affectedCount": 670,
+      "changes": [
+        {
+          "label": "新增 9903.04.70：仅用于临床试验、研发或其他非商业用途的药品及关联成分",
+          "labelEn": "New heading 9903.04.70 for pharmaceutical articles and associated ingredients solely for clinical trials, R&D, or other non-commercial applications",
+          "oldValue": "无专门税目（落在 9903.04.69 等条款内）",
+          "oldValueEn": "No dedicated heading (captured under 9903.04.69 and related provisions)",
+          "newValue": "原适用税率 + 0%",
+          "newValueEn": "The duty provided in the applicable subheading + 0%"
+        },
+        {
+          "label": "U.S. note 40 (a) 适用税目范围",
+          "labelEn": "U.S. note 40 subdivision (a) heading range",
+          "oldValue": "9903.04.60-9903.04.69",
+          "oldValueEn": "9903.04.60-9903.04.69",
+          "newValue": "9903.04.60-9903.04.70",
+          "newValueEn": "9903.04.60-9903.04.70"
+        },
+        {
+          "label": "「generic pharmaceutical articles」定义修正（U.S. note 40 (c)(iii)，涉 9903.04.67）",
+          "labelEn": "Definition of \"generic pharmaceutical articles\" (U.S. note 40 (c)(iii), heading 9903.04.67)",
+          "oldValue": "经合格申请批准的药品/生物类似药产品及其 API 或组分",
+          "oldValueEn": "APIs or components in drug/biosimilar products approved under a qualifying application",
+          "newValue": "扩展纳入「未专利动物健康产品」",
+          "newValueEn": "Expanded to include \"unpatented animal health products\""
+        },
+        {
+          "label": "Proclamation 11020 Annex IV 与 Annex I 重叠税号清理",
+          "labelEn": "Overlap cleanup between Proclamation 11020 Annex IV and Annex I",
+          "oldValue": "Annex IV 含与 Annex I 重叠的税号",
+          "oldValueEn": "Annex IV contained codes overlapping Annex I",
+          "newValue": "删除 5 个重叠税号：2937.23.50、3002.13.00、3002.14.00、3002.15.00、3004.49.00",
+          "newValueEn": "Removed 5 overlapping codes: 2937.23.50, 3002.13.00, 3002.14.00, 3002.15.00, 3004.49.00"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FR 2026-19498 — Guidance and Procedures for Implementing Tariff Adjustments for Specialty Pharmaceuticals and Associated Pharmaceutical Ingredients, 91 FR 60360",
+          "url": "https://www.federalregister.gov/documents/2026/09/23/2026-19498/guidance-and-procedures-for-implementing-tariff-adjustments-for-specialty-pharmaceuticals-and"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-2026-19414",
+      "date": "2026-09-23",
+      "layer": "mfn",
+      "status": "published",
+      "title": "CBP ACE 电子出口舱单（EEM）卡车货运测试公告（程序性）",
+      "titleEn": "CBP notice announcing ACE Electronic Export Manifest (EEM) for Truck Cargo Test (procedural)",
+      "summary": "美国海关与边境保护局（CBP）公告开展 ACE「电子出口舱单」（EEM）卡车货运自愿测试（91 FR 60383）：测试 2026-10-23 启动、为期约两年（可延长、修改或提前终止），设 9 个参与者名额（符合全部测试参与要求即受理，名额满即止）；参与者须在卡车离境前至少 24 小时电子提交有限出口舱单数据，并在抵达最终出口口岸前不晚于 2 小时补全完整出口舱单申报；CBP 就测试的任何方面公开征求意见（测试期内随时可提）。属通关流程测试，不改变任何关税税率或税目归类。（程序性）",
+      "summaryEn": "U.S. Customs and Border Protection (CBP) announced a voluntary ACE Electronic Export Manifest (EEM) for Truck Cargo Test (91 FR 60383): the test begins October 23, 2026 and runs approximately two years (subject to extension, modification, or early termination), with participation capped at nine parties that meet all test participant requirements. Participants agree to submit limited export manifest data electronically at least 24 hours before departure from the United States, complemented by the complete export manifest filing no later than two hours prior to arrival at the final port of export. CBP invites public comment on any aspect of the test at any time during the test period. This is a customs-process test; it does not change any duty rates or tariff classifications. (Procedural)",
+      "affectedHts": "无（通关流程测试，不涉税目）",
+      "affectedHtsEn": "None (customs-process test; no HTS codes)",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-19414 — Electronic Export Manifest for Truck Cargo Test, 91 FR 60383",
+          "url": "https://www.federalregister.gov/documents/2026/09/23/2026-19414/electronic-export-manifest-for-truck-cargo-test"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-2026-19399",
+      "date": "2026-09-23",
+      "layer": "mfn",
+      "status": "published",
+      "title": "USTR 公布 FY2027 财年原糖关税配额（TRQ）国家分配（追加分配 55,993 公吨）",
+      "titleEn": "USTR announces FY2027 tariff-rate quota allocations for raw cane sugar (supplementary allocation of 55,993 MTRV)",
+      "summary": "美国贸易代表办公室（USTR）公告 2027 财年（2026-10-01 至 2027-09-30）进口原糖关税配额（TRQ）配额内数量分配（91 FR 60487）：FY2027 原糖 TRQ 配额内总量 1,117,195 公吨粗值（MTRV，为 WTO 协定下美国承诺的最低量）；其中 1,061,202 MTRV 已于 2026-07-24 完成分配（91 FR 46822），本次将剩余 55,993 MTRV 追加分配至 28 个供应国/地区（多米尼加 11,931、菲律宾 9,151、澳大利亚 5,626、危地马拉 3,254、阿根廷 2,915、秘鲁 2,779 等）。配额内数量自 2026-10-01 起可入境；获分配国家的进口须随附配额资格证明，对糖净进口国的分配以原产地核查合格为条件。依据 HTSUS 第 17 章附加美国注释 5（Additional U.S. Note 5 to Chapter 17）；本次分配调整的是配额准入数量，不改变配额内/外税率水平。",
+      "summaryEn": "The Office of the United States Trade Representative (USTR) announced the Fiscal Year 2027 (October 1, 2026 through September 30, 2027) in-quota quantity allocations of the tariff-rate quota (TRQ) for imported raw cane sugar (91 FR 60487). The FY2027 in-quota quantity is 1,117,195 metric tons raw value (MTRV), the minimum amount committed under the WTO Agreement; 1,061,202 MTRV was allocated on July 24, 2026 (91 FR 46822), and this notice allocates the remaining 55,993 MTRV among 28 supplying countries (Dominican Republic 11,931; Philippines 9,151; Australia 5,626; Guatemala 3,254; Argentina 2,915; Peru 2,779; etc.). In-quota quantities may enter the United States as of October 1, 2026; imports from allocated countries must be accompanied by certificates of quota eligibility, and allocations to net sugar importers are conditioned on verifications of origin. The allocations are made pursuant to Additional U.S. Note 5 to Chapter 17 of the HTSUS; they adjust quota access quantities only and do not change in-quota or over-quota duty rates.",
+      "affectedHts": "原糖 TRQ（HTSUS 第 17 章附加美国注释 5 项下；原文未列具体税号）",
+      "affectedHtsEn": "Raw cane sugar TRQ (under Additional U.S. Note 5 to HTSUS chapter 17; no specific HTS numbers listed in the notice)",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "FY2027 原糖 TRQ 配额内数量分配",
+          "labelEn": "FY2027 raw cane sugar TRQ in-quota quantity allocation",
+          "oldValue": "2026-07-24 已分配 1,061,202 MTRV（91 FR 46822）",
+          "oldValueEn": "1,061,202 MTRV allocated on July 24, 2026 (91 FR 46822)",
+          "newValue": "总量 1,117,195 MTRV：本次追加分配剩余 55,993 MTRV 至 28 国，2026-10-01 起可入境",
+          "newValueEn": "1,117,195 MTRV total: remaining 55,993 MTRV allocated to 28 countries, entering on or after October 1, 2026"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FR 2026-19399 — Fiscal Year 2027 Tariff-Rate Quota Allocations for Raw Cane Sugar, 91 FR 60487",
+          "url": "https://www.federalregister.gov/documents/2026/09/23/2026-19399/fiscal-year-2027-tariff-rate-quota-allocations-for-raw-cane-sugar"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-2026-19586",
+      "date": "2026-09-24",
+      "layer": "mfn",
+      "status": "published",
+      "title": "ITC 337 立案调查（可穿戴吸奶器，Inv. 337-TA-1522）：Willow Innovations 专利侵权指控（程序性）",
+      "titleEn": "ITC Section 337 institution (Inv. 337-TA-1522): certain wearable breast pumps — Willow Innovations patent complaint (procedural)",
+      "summary": "USITC 公告对「特定可穿戴吸奶器、配套储奶容器及其部件（含单独销售的集奶容器与替换件）」发起 337 调查（Inv. 337-TA-1522；91 FR 60645）：Willow Innovations, Inc.（加州 Mountain View）与 Willow Blossom HoldCo Ltd.（英国）于 2026-08-20 提起申诉，指控相关产品进口及在美国销售侵犯其第 11,660,380、12,370,292、D1,053,344、11,813,388、D1,031,993 号美国专利，请求委员会经调查后发布有限排除令与停止令。属知识产权类进口救济程序，立案本身不改变任何关税税率；若后续发布有限排除令将影响相关产品进口，届时再行跟踪。原文未给出具体数值，详见 FR 原文。",
+      "summaryEn": "The USITC has instituted Section 337 investigation 337-TA-1522 on certain wearable breast pumps, associated milk storage containers and components thereof (including separately sold milk collection containers and replacement parts) (91 FR 60645): Willow Innovations, Inc. of Mountain View, California and Willow Blossom HoldCo Ltd. of the United Kingdom filed a complaint on August 20, 2026 alleging infringement of U.S. Patent Nos. 11,660,380, 12,370,292, D1,053,344, 11,813,388 and D1,031,993, and requesting a limited exclusion order and cease-and-desist orders. This is an IP-based import-relief proceeding; institution itself changes no tariff rates. Any later limited exclusion order affecting imports of the involved products would be tracked then. No specific values are given, see the FR text.",
+      "affectedHts": "可穿戴吸奶器、配套储奶容器及其部件（以调查裁决为准）",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-19586 — Certain Wearable Breast Pumps, Associated Milk Storage Containers, and Components Thereof; Notice of Institution of Investigation (Inv. 337-TA-1522), 91 FR 60645",
+          "url": "https://www.federalregister.gov/documents/2026/09/24/2026-19586/certain-wearable-breast-pumps-associated-milk-storage-containers-and-components-thereof-notice-of"
+        }
+      ],
+      "affectedHtsEn": "Wearable breast pumps, associated milk storage containers and components thereof (subject to the investigation outcome)"
+    },
+    {
+      "id": "2026-09-24-2026-19544",
+      "date": "2026-09-24",
+      "layer": "mfn",
+      "status": "published",
+      "title": "ITC 337 调查（闪纺非织造材料/TYVEK 案，Inv. 337-TA-1424）：部分复审违反 §337 终裁初裁、就救济征求意见（程序性）",
+      "titleEn": "ITC Section 337 (flash-spun nonwoven materials/TYVEK case, Inv. 337-TA-1424): review-in-part of violation FID; submissions on remedy (procedural)",
+      "summary": "USITC 公告决定部分复审主审行政法官在 Inv. 337-TA-1424 中认定违反 §337 的最终初裁，并就救济措施、公共利益、保证金征求书面意见（91 FR 60647）。该案由 DuPont 系公司申诉，指控行为为商业秘密盗用及 TYVEK 文字商标与蓝色八角形商标侵权，被申请人含 Xiamen Dangs、Kingwills、Qingyun 等多家中国企业。属知识产权类进口救济程序，现阶段不产生任何关税税率变化；若后续发布救济令将影响相关产品进口，届时再行跟踪。原文未给出具体数值，详见 FR 原文。",
+      "summaryEn": "The USITC has determined to review in part the final initial determination of the presiding administrative law judge finding a Section 337 violation in Inv. 337-TA-1424 and requests written submissions on remedy, the public interest and bonding (91 FR 60647). The case was brought by DuPont entities alleging trade-secret misappropriation and infringement of the TYVEK word marks and blue octagon mark, with respondents including Chinese companies such as Xiamen Dangs, Kingwills and Qingyun. This is an IP-based import-relief proceeding with no tariff-rate effect at this stage; any later remedy order affecting imports of the involved products would be tracked then. No specific values are given, see the FR text.",
+      "affectedHts": "闪纺非织造材料及含该材料的产品（以调查裁决为准）",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-19544 — Certain Flash-Spun Nonwoven Materials and Products Containing Same; Commission Determination To Review in Part a Final Initial Determination (Inv. 337-TA-1424), 91 FR 60647",
+          "url": "https://www.federalregister.gov/documents/2026/09/24/2026-19544/certain-flash-spun-nonwoven-materials-and-products-containing-same-notice-of-commission"
+        }
+      ],
+      "affectedHtsEn": "Flash-spun nonwoven materials and products containing same (subject to the investigation outcome)"
+    },
+    {
+      "id": "2026-09-24-2026-19543",
+      "date": "2026-09-24",
+      "layer": "mfn",
+      "status": "published",
+      "title": "ITC 337 终裁与普遍排除令（吸收式制冷系统锅炉保护装置，Inv. 337-TA-1453）：侵权产品禁止进口、调查终止",
+      "titleEn": "ITC Section 337 final determination and general exclusion order (Inv. 337-TA-1453): certain boiler protection for absorption refrigeration systems barred from import",
+      "summary": "USITC 认定违反 §337 并发出普遍排除令（GEO），禁止侵犯第 8,056,360 号美国专利权利要求 1、4、6、10 的「吸收式制冷系统锅炉保护装置及其部件」进口，同时对 7 家缺席被申请人（均为中国企业）发出停止令（CDO），调查终止（91 FR 60640）。GEO 为普遍性排除令，不区分是否为被申请人——任何主体的涉案侵权产品入境均在禁止之列，进口商需自证产品不落入专利权利要求范围方可放行。属知识产权类进口救济令：禁止的是涉案侵权产品进口，不改变任何关税税率；向美国出口汽车制冷/冷却系统养护用品（如防冻液补充剂类产品）的企业需评估产品是否落入涉案专利范围。原文未给出具体数值，详见 FR 原文。",
+      "summaryEn": "The USITC has found a Section 337 violation and issued a general exclusion order (GEO) prohibiting the importation of certain boiler protection for absorption refrigeration systems and components thereof that infringe claims 1, 4, 6 and 10 of U.S. Patent No. 8,056,360, along with cease-and-desist orders against seven defaulting respondents, all Chinese companies; the investigation is terminated (91 FR 60640). A GEO applies regardless of who imports the products — entry of any infringing articles within the scope is barred, and importers must show their goods fall outside the patent claims to secure release. This is an IP-based import-relief order: it bars the infringing products from importation and changes no tariff rates; exporters to the U.S. of automotive cooling-system maintenance products (e.g. coolant supplement-type items) should assess whether their products fall within the patent claims. No specific values are given, see the FR text.",
+      "affectedHts": "吸收式制冷系统锅炉保护装置及其部件（以 GEO 范围为准）",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-19543 — Certain Boiler Protection for Absorption Refrigeration Systems and Components Thereof; Notice of the Commission's Final Determination Finding a Violation of Section 337; Issuance of a General Exclusion Order and Cease and Desist Orders (Inv. 337-TA-1453), 91 FR 60640",
+          "url": "https://www.federalregister.gov/documents/2026/09/24/2026-19543/certain-boiler-protection-for-absorption-refrigeration-systems-and-components-thereof-notice-of-the"
+        }
+      ],
+      "affectedHtsEn": "Certain boiler protection for absorption refrigeration systems and components thereof (per the GEO scope)"
+    },
+    {
+      "id": "2026-09-22-2026-19537",
+      "date": "2026-09-22",
+      "layer": "section232",
+      "status": "published",
+      "title": "232 多晶硅防囤积临时最终规则：新进口商设周量限、囤积者禁报关，2026-12-04 前有效（91 FR 60505）",
+      "titleEn": "Section 232 polysilicon anti-stockpiling temporary final rule: weekly volume caps for new importers and entry bans for stockpilers through Dec 4, 2026 (91 FR 60505)",
+      "summary": "商务部产业安全局（BIS）发布临时最终规则（15 CFR 705 补编 1；91 FR 60505，公布于 2026-09-24），落实第 11052 号总统公告（2026-08-06，91 FR 51975）在 2026-12-04 多晶硅进口调整（最低进口价+关税）生效前防囤积：(1) 现有报关人进口量显著高于历史均值的，经商务部认定后将被 CBP 书面通知并禁止在 12-04 前继续报关多晶硅产品；(2) 2026-08-06 及以后在 CBP 注册的新报关人，未经商务部批准每周进口量不得超过——多晶硅（HTSUS 2804.61.00）12 kg、掺杂用多晶硅产品（3818.00.0020/.0040/.0045/.0050/.0091）7 kg、光伏电池（8541.42.00）2,000 件、其他 8541.43.00 产品 55 件，超量即丧失后续报关资格；(3) 被限制企业可向商务部申请豁免（Polysilicon232@bis.doc.gov）；(4) 对拆分多报关人、借报关行规避等行为将协同 CBP 执法。规则自 2026-09-22 生效至 2026-12-03。本规则为数量/资格类进口限制，不新增关税税率；12-04 起的最低进口价与关税按总统公告执行。",
+      "summaryEn": "The Bureau of Industry and Security (BIS) issued a temporary final rule (supplement no. 1 to 15 CFR part 705; 91 FR 60505, published September 24, 2026) to prevent stockpiling ahead of the December 4, 2026 polysilicon import adjustments (minimum import prices plus tariffs) under Proclamation 11052 (August 6, 2026; 91 FR 51975): (1) existing importers of record found to be importing volumes substantially above their historic averages will be barred by CBP notice from further entries of Polysilicon Products before December 4; (2) new IORs registered with CBP on or after August 6, 2026 may not, absent Commerce approval, exceed weekly volumes of — 12 kg for polysilicon (HTSUS 2804.61.00), 7 kg for doped polysilicon products (3818.00.0020/.0040/.0045/.0050/.0091), 2,000 units for photosensitive semiconductor devices (8541.42.00) and 55 units for other 8541.43.00 goods — after which further entries are prohibited; (3) restricted companies may apply to Commerce for a waiver (Polysilicon232@bis.doc.gov); (4) BIS and CBP will act against multiple-IOR and broker-facilitated circumvention. Effective September 22 through December 3, 2026. This is a quantitative/eligibility import restriction that adds no tariff rates; the December 4 MIP and tariffs follow the proclamation itself.",
+      "affectedHts": "HTSUS 2804.61.00、3818.00.0020/.0040/.0045/.0050/.0091、8541.42.00、8541.43.00",
+      "affectedCount": 8,
+      "changes": [
+        {
+          "label": "新报关人周量限：多晶硅（HTSUS 2804.61.00）",
+          "labelEn": "New-importer weekly cap: polysilicon (HTSUS 2804.61.00)",
+          "oldValue": "无数量限制",
+          "oldValueEn": "No volume limit",
+          "newValue": "12 kg/周（超量禁后续报关）",
+          "newValueEn": "12 kg per week (excess bars further entries)"
+        },
+        {
+          "label": "新报关人周量限：掺杂用多晶硅产品（3818.00.0020/.0040/.0045/.0050/.0091）",
+          "labelEn": "New-importer weekly cap: doped polysilicon products (3818.00.0020/.0040/.0045/.0050/.0091)",
+          "oldValue": "无数量限制",
+          "oldValueEn": "No volume limit",
+          "newValue": "7 kg/周（超量禁后续报关）",
+          "newValueEn": "7 kg per week (excess bars further entries)"
+        },
+        {
+          "label": "新报关人周量限：光伏/感光半导体器件（8541.42.00）",
+          "labelEn": "New-importer weekly cap: photosensitive semiconductor devices (8541.42.00)",
+          "oldValue": "无数量限制",
+          "oldValueEn": "No volume limit",
+          "newValue": "2,000 件/周（超量禁后续报关）",
+          "newValueEn": "2,000 units per week (excess bars further entries)"
+        },
+        {
+          "label": "新报关人周量限：其他 8541.43.00 产品",
+          "labelEn": "New-importer weekly cap: other 8541.43.00 goods",
+          "oldValue": "无数量限制",
+          "oldValueEn": "No volume limit",
+          "newValue": "55 件/周（超量禁后续报关）",
+          "newValueEn": "55 units per week (excess bars further entries)"
+        },
+        {
+          "label": "囤积的现有报关人",
+          "labelEn": "Stockpiling existing importers of record",
+          "oldValue": "正常报关",
+          "oldValueEn": "Normal entry",
+          "newValue": "经商务部认定囤积后禁止报关至 2026-12-04（可申请豁免）",
+          "newValueEn": "Entry prohibition until 2026-12-04 once Commerce finds stockpiling (waiver available)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FR 2026-19537 — Measures To Restrict Stockpiling of Polysilicon and Polysilicon Derivatives Under Proclamation 11052 (BIS temporary final rule), 91 FR 60505",
+          "url": "https://www.federalregister.gov/documents/2026/09/24/2026-19537/measures-to-restrict-stockpiling-of-polysilicon-and-polysilicon-derivatives-under-proclamation-11052"
+        }
+      ],
+      "affectedHtsEn": "HTSUS 2804.61.00; 3818.00.0020/.0040/.0045/.0050/.0091; 8541.42.00; 8541.43.00"
+    },
+    {
+      "id": "2026-09-25-2026-19697",
+      "date": "2026-09-25",
+      "layer": "mfn",
+      "status": "published",
+      "title": "ITC 337 立案调查（DDR5 内存模组，Inv. 337-TA-1523）：Netlist 起诉美光/惠与/联想/超微 DRAM 专利侵权（程序性）",
+      "titleEn": "ITC Section 337 institution (Inv. 337-TA-1523): certain DDR5 DRAM devices — Netlist patent complaint against Micron, HPE, Lenovo, Supermicro (procedural)",
+      "summary": "USITC 公告对「特定 DRAM 装置（具体为 DDR5 代 DIMM 内存模组）及含该装置的产品（如服务器、计算系统、存储系统）及其部件」发起 337 调查（Inv. 337-TA-1523；91 FR 60980，委员会于 2026-09-22 决定立案）：Netlist, Inc.（加州 Irvine）于 2026-08-11 提起申诉、2026-08-25 补充，指控相关产品进口及在美国销售侵犯其第 10,025,731、10,217,523、12,373,366、12,675,407 号美国专利，请求委员会经调查后发布有限排除令与停止令；被申请人包括美光（Micron Technology、Micron Semiconductor Products）、惠与（Hewlett Packard Enterprise）、联想（Lenovo Group、Lenovo US）与超微（Super Micro Computer）。属知识产权类进口救济程序，立案本身不改变任何关税税率；若后续发布有限排除令将影响相关产品进口，届时再行跟踪。原文未给出具体数值，详见 FR 原文。",
+      "summaryEn": "The USITC has instituted Section 337 investigation 337-TA-1523 on certain DRAM devices (specifically, DDR5-generation DIMMs) and products containing the same (such as servers, computing systems and storage systems) and components thereof (91 FR 60980; the Commission ordered institution on September 22, 2026): Netlist, Inc. of Irvine, California filed a complaint on August 11, 2026 (supplemented August 25, 2026) alleging infringement of U.S. Patent Nos. 10,025,731, 10,217,523, 12,373,366 and 12,675,407, and requesting a limited exclusion order and cease-and-desist orders; respondents include Micron Technology, Micron Semiconductor Products, Hewlett Packard Enterprise, Lenovo Group, Lenovo (United States) and Super Micro Computer. This is an IP-based import-relief proceeding; institution itself changes no tariff rates. Any later limited exclusion order affecting imports of the involved products would be tracked then. No specific values are given, see the FR text.",
+      "affectedHts": "DDR5 代 DIMM 内存模组及含该模组的服务器、计算系统、存储系统（以调查裁决为准）",
+      "affectedHtsEn": "DDR5-generation DIMM modules and servers, computing systems and storage systems containing them (subject to the investigation outcome)",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-19697 — Certain Dynamic Random Access Memory (DRAM) Devices, Products Containing the Same, and Components Thereof (III); Notice of Institution of Investigation (Inv. 337-TA-1523), 91 FR 60980",
+          "url": "https://www.federalregister.gov/documents/2026/09/25/2026-19697/certain-dynamic-random-access-memory-dram-devices-products-containing-the-same-and-components"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-28-2026-19713",
+      "date": "2026-09-28",
+      "layer": "mfn",
+      "status": "published",
+      "title": "ITC 337 立案调查（电动躺椅机构，Inv. 337-TA-1524）：Leggett & Platt 等起诉 11 家企业（含恒林家居等中国厂商）电动摇摆/滑翔躺椅机构专利侵权（程序性）",
+      "titleEn": "ITC Section 337 institution (Inv. 337-TA-1524): certain powered rocker-recliner and glider-recliner mechanisms and seating units — Leggett & Platt et al. patent complaint against 11 respondents incl. Chinese furniture makers (procedural)",
+      "summary": "USITC 公告对「电动滑翔躺椅机构、电动摇摆躺椅机构及含该机构的成品座椅」发起 337 调查（Inv. 337-TA-1524；91 FR 61249，委员会于 2026-09-22 决定立案）：Ultra-Mek（北卡罗来纳州 Denton）、Leggett & Platt 与 L&P Property Management（密苏里州 Carthage）于 2026-08-21 提起申诉、2026-09-09 及 09-10 补充，指控相关产品进口及在美国销售侵犯其第 8,398,165、8,398,168、8,016,348、8,297,693 号美国专利（涉案权利要求范围见公告），并请求委员会经调查后发布有限排除令与停止令；被申请人共 11 家，包括江苏扬州 Jiangsu Carya Smart Home Hardware、浙江湖州恒林家居（Henglin Home Furnishings）、南京 Hengning 家具、杭州 Hengjian 家具等 4 家中国大陆企业，以及香港 Living Style Group 及其新加坡/越南关联公司和美国进口商 True Innovations、Colamy、Aurora Maison、Aerisnexus。属知识产权类进口救济程序，立案本身不改变任何关税税率；若后续发布有限排除令将影响相关家具产品对美出口，届时再行跟踪。原文未给出具体数值，详见 FR 原文。",
+      "summaryEn": "The USITC has instituted Section 337 investigation 337-TA-1524 on powered glider-recliner mechanisms, powered rocker-recliner mechanisms and finished seating units incorporating those mechanisms (91 FR 61249; the Commission ordered institution on September 22, 2026): Ultra-Mek, Inc. (Denton, NC), Leggett & Platt, Inc. and L&P Property Management Company (Carthage, MO) filed a complaint on August 21, 2026 (supplemented September 9 and 10, 2026) alleging infringement of U.S. Patent Nos. 8,398,165, 8,398,168, 8,016,348 and 8,297,693 (asserted claims as set out in the notice), and requesting a limited exclusion order and cease-and-desist orders. The 11 named respondents include four mainland-China furniture makers — Jiangsu Carya Smart Home Hardware (Yangzhou, Jiangsu), Henglin Home Furnishings (Huzhou, Zhejiang), Nanjing Hengning Home Furnishings and Zhejiang Hengjian Home Furnishing (Hangzhou) — plus Hong Kong-based Living Style Group and its Singapore/Vietnam affiliates and U.S. importers True Innovations, Colamy, Aurora Maison and Aerisnexus. This is an IP-based import-relief proceeding; institution itself changes no tariff rates. Any later limited exclusion order affecting U.S. exports of the involved furniture products would be tracked then. No specific values are given, see the FR text.",
+      "affectedHts": "电动滑翔/摇摆躺椅机构及含该机构的成品座椅（功能沙发类家具，以调查裁决为准）",
+      "affectedHtsEn": "Powered glider-recliner mechanisms, powered rocker-recliner mechanisms and finished seating units incorporating them (recliner-type furniture; subject to the investigation outcome)",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-19713 — Certain Powered Rocker-Recliner and Glider-Recliner Mechanisms and Seating Units Containing Same; Notice of Institution of Investigation (Inv. 337-TA-1524), 91 FR 61249",
+          "url": "https://www.federalregister.gov/documents/2026/09/28/2026-19713/certain-powered-rocker-recliner-and-glider-recliner-mechanisms-and-seating-units-containing-same"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-2026-19926",
+      "date": "2026-09-29",
+      "layer": "mfn",
+      "status": "published",
+      "affectedHts": "石油及部分石油制品（检验资质公示，程序性）",
+      "affectedHtsEn": "Petroleum and certain petroleum products (inspection-accreditation notice; procedural)",
+      "affectedCount": null,
+      "changes": [],
+      "title": "CBP 商业量重/实验室资质认定：Laboratory Services, Inc.（Kemah, TX）（程序性）",
+      "titleEn": "CBP commercial gauger/laboratory approval: Laboratory Services, Inc. (Kemah, TX) (procedural)",
+      "summary": "CBP 依海关监管规定公告：Laboratory Services, Inc.（Kemah, TX）获准为商业量重机构（commercial gauger）与商业实验室（commercial laboratory），可承担石油及部分石油制品的海关量重与检测，自 2025-07-22 起三年有效，下次三年期检查定于 2028 年 7 月（91 FR 61427）。纯检验资质公示，不调整任何税率或申报义务；原文未给出具体数值，详见 FR 原文。",
+      "summaryEn": "Per CBP regulations, CBP announces that Laboratory Services, Inc. (Kemah, TX) is approved as a commercial gauger and accredited as a commercial laboratory to gauge and test petroleum and certain petroleum products for customs purposes for three years as of July 22, 2025, with the next triennial inspection scheduled for July 2028 (91 FR 61427). Accreditation notice only — no duty or filing changes; no specific values are given, see the FR text.",
+      "sources": [
+        {
+          "title": "FR 2026-19926 — Accreditation and Approval of Laboratory Services, Inc. (Kemah, TX), 91 FR 61427",
+          "url": "https://www.federalregister.gov/documents/2026/09/29/2026-19926/accreditation-and-approval-of-laboratory-services-inc-kemah-tx-as-a-commercial-gauger-and-laboratory"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-2026-19925",
+      "date": "2026-09-29",
+      "layer": "mfn",
+      "status": "published",
+      "affectedHts": "石油及部分石油制品（检验资质公示，程序性）",
+      "affectedHtsEn": "Petroleum and certain petroleum products (inspection-accreditation notice; procedural)",
+      "affectedCount": null,
+      "changes": [],
+      "title": "CBP 商业量重/实验室资质认定：Intertek USA, Inc.（Chelsea, MA）（程序性）",
+      "titleEn": "CBP commercial gauger/laboratory approval: Intertek USA, Inc. (Chelsea, MA) (procedural)",
+      "summary": "CBP 依海关监管规定公告：Intertek USA, Inc.（Chelsea, MA）获准为商业量重机构（commercial gauger）与商业实验室（commercial laboratory），可承担石油及部分石油制品的海关量重与检测，自 2024-08-28 起三年有效，下次三年期检查定于 2027 年 8 月（91 FR 61427）。纯检验资质公示，不调整任何税率或申报义务；原文未给出具体数值，详见 FR 原文。",
+      "summaryEn": "Per CBP regulations, CBP announces that Intertek USA, Inc. (Chelsea, MA) is approved as a commercial gauger and accredited as a commercial laboratory to gauge and test petroleum and certain petroleum products for customs purposes for three years as of August 28, 2024, with the next triennial inspection scheduled for August 2027 (91 FR 61427). Accreditation notice only — no duty or filing changes; no specific values are given, see the FR text.",
+      "sources": [
+        {
+          "title": "FR 2026-19925 — Accreditation and Approval of Intertek USA, Inc. (Chelsea, MA), 91 FR 61427",
+          "url": "https://www.federalregister.gov/documents/2026/09/29/2026-19925/accreditation-and-approval-of-intertek-usa-inc-chelsea-ma-as-a-commercial-gauger-and-laboratory"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-29-2026-19924",
+      "date": "2026-09-29",
+      "layer": "mfn",
+      "status": "published",
+      "affectedHts": "石油及部分石油制品（检验资质公示，程序性）",
+      "affectedHtsEn": "Petroleum and certain petroleum products (inspection-accreditation notice; procedural)",
+      "affectedCount": null,
+      "changes": [],
+      "title": "CBP 商业量重/实验室资质认定：Intertek USA, Inc.（Carteret, NJ）（程序性）",
+      "titleEn": "CBP commercial gauger/laboratory approval: Intertek USA, Inc. (Carteret, NJ) (procedural)",
+      "summary": "CBP 依海关监管规定公告：Intertek USA, Inc.（Carteret, NJ）获准为商业量重机构（commercial gauger）与商业实验室（commercial laboratory），可承担石油及部分石油制品的海关量重与检测，自 2025-08-28 起三年有效，下次三年期检查定于 2028 年 8 月（91 FR 61428）。纯检验资质公示，不调整任何税率或申报义务；原文未给出具体数值，详见 FR 原文。",
+      "summaryEn": "Per CBP regulations, CBP announces that Intertek USA, Inc. (Carteret, NJ) is approved as a commercial gauger and accredited as a commercial laboratory to gauge and test petroleum and certain petroleum products for customs purposes for three years as of August 28, 2025, with the next triennial inspection scheduled for August 2028 (91 FR 61428). Accreditation notice only — no duty or filing changes; no specific values are given, see the FR text.",
+      "sources": [
+        {
+          "title": "FR 2026-19924 — Accreditation and Approval of Intertek USA, Inc. (Carteret, NJ), 91 FR 61428",
+          "url": "https://www.federalregister.gov/documents/2026/09/29/2026-19924/accreditation-and-approval-of-intertek-usa-inc-carteret-nj-as-a-commercial-gauger-and-laboratory"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-2026-20171",
+      "date": "2026-10-01",
+      "layer": "mfn",
+      "status": "published",
+      "affectedHts": "进口申报表格 CBP Form 7501（文书负担公示，程序性）",
+      "affectedHtsEn": "CBP Form 7501 entry summary (paperwork notice; procedural)",
+      "affectedCount": null,
+      "changes": [],
+      "title": "CBP「入境汇总」信息收集修订征求意见：CBP Form 7501（程序性）",
+      "titleEn": "CBP information collection revision for Entry Summary (CBP Form 7501) — request for comments (procedural)",
+      "summary": "CBP 依《文书工作削减法》（PRA）向 OMB 提交「入境汇总」（Entry Summary）信息收集修订申请（OMB 1651-0022，91 FR 62537）：CBP Form 7501 用于申报进入美国商业的商品，海关价值与应缴关税、税款、规费金额均在此表申报。现为 30 天公众意见征询期，属程序性文书负担公示，不改变任何税率或申报要求。",
+      "summaryEn": "Under the Paperwork Reduction Act, CBP submits a revision of the Entry Summary information collection (OMB 1651-0022, 91 FR 62537) to OMB for review and opens a 30-day comment window: CBP Form 7501 identifies merchandise entering U.S. commerce, declaring customs value and the estimated duties, taxes and fees owed. Procedural paperwork notice only — no duty-rate or filing-requirement change.",
+      "sources": [
+        {
+          "title": "FR 2026-20171 — Agency Information Collection Activities; Revision; Entry Summary, 91 FR 62537",
+          "url": "https://www.federalregister.gov/documents/2026/10/01/2026-20171/agency-information-collection-activities-revision-entry-summary"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-2026-20170",
+      "date": "2026-10-01",
+      "layer": "mfn",
+      "status": "published",
+      "affectedHts": "进口申报表格 CBP Form 3461（文书负担公示，程序性）",
+      "affectedHtsEn": "CBP Form 3461 entry (paperwork notice; procedural)",
+      "affectedCount": null,
+      "changes": [],
+      "title": "CBP「入境」信息收集修订征求意见：CBP Form 3461（程序性）",
+      "titleEn": "CBP information collection revision for Entry (CBP Form 3461) — request for comments (procedural)",
+      "summary": "CBP 依 PRA 向 OMB 提交「入境」（Entry）信息收集修订申请（OMB 1651-0024，91 FR 62538）：所有进口货物进入美国商业前均须接受查验，CBP Form 3461 即用于该入境环节申报。现为 30 天公众意见征询期，属程序性文书负担公示，不改变任何税率或申报要求。",
+      "summaryEn": "Under the Paperwork Reduction Act, CBP submits a revision of the Entry information collection (OMB 1651-0024, 91 FR 62538) to OMB for review and opens a 30-day comment window: all items imported into the United States are subject to examination before entering U.S. commerce, and CBP Form 3461 is filed at that entry step. Procedural paperwork notice only — no duty-rate or filing-requirement change.",
+      "sources": [
+        {
+          "title": "FR 2026-20170 — Agency Information Collection Activities; Revision; Entry, 91 FR 62538",
+          "url": "https://www.federalregister.gov/documents/2026/10/01/2026-20170/agency-information-collection-activities-revision-entry"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-30-2026-19964",
+      "date": "2026-11-30",
+      "layer": "mfn",
+      "status": "upcoming",
+      "title": "预告：NHTSA SAFE Vehicles Rule III——CAFE 燃油经济性标准重校准（2026-11-30 起，非关税公告）",
+      "titleEn": "Upcoming: NHTSA SAFE Vehicles Rule III — CAFE fuel-economy standards recalibrated (from 2026-11-30; non-tariff notice)",
+      "summary": "美国交通部国家公路交通安全管理局（NHTSA）最终规则（91 FR 61988，2026-09-30 发布，2026-11-30 生效）：代表交通部对企业平均燃油经济性（CAFE）计划作重大重校准，修订 2022-2026 及 2027-2031 车型年轻型车（乘用车与轻型卡车）燃油经济性标准，并修订车辆分类等合规路径。属车辆燃油经济性监管领域，与美国进口关税计算无关，不影响任何税目税率；原文未给出具体数值，详见 FR 原文。",
+      "summaryEn": "NHTSA, on behalf of the U.S. Department of Transportation, finalizes a substantial recalibration of the Corporate Average Fuel Economy (CAFE) program (91 FR 61988, published 2026-09-30, effective 2026-11-30): amendments to fuel-economy standards for light-duty vehicles (passenger cars and light trucks) for model years 2022-2026 and 2027-2031, plus compliance aspects including vehicle classification and other compliance pathways. Vehicle fuel-economy regulation only — unrelated to U.S. import-duty calculation and no HTS rate change; the notice states no specific figures, see the FR document for details.",
+      "affectedHts": "无（车辆燃油经济性监管公告，不涉税目）",
+      "affectedHtsEn": "None (vehicle fuel-economy regulation; no HTS codes)",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-19964 — The Safer Affordable Fuel-Efficient (SAFE) Vehicles Rule III for Model Years 2022 to 2031 Passenger Cars and Light Trucks, 91 FR 61988",
+          "url": "https://www.federalregister.gov/documents/2026/09/30/2026-19964/the-safer-affordable-fuel-efficient-safe-vehicles-rule-iii-for-model-years-2022-to-2031-passenger"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-01-2026-20084",
+      "date": "2026-10-01",
+      "layer": "mfn",
+      "status": "published",
+      "title": "DEA 拟延长管制物质境外再出口期限 180→365 天（非关税公告）",
+      "titleEn": "DEA proposes extending the controlled-substances reexport period from 180 to 365 days (non-tariff notice)",
+      "summary": "缉毒局（DEA）拟议规则（Docket No. DEA-730，91 FR 62357，2026-10-01 发布）：拟将受管制物质向欧洲经济区以外国家再出口的允许期限，由 CBP 原始放行之日起 180 天延长至 365 天，正征求意见。摘要提及 CBP 仅作为放行日期参照，属药品监管领域，与美国进口关税计算无关，不影响任何税目税率。",
+      "summaryEn": "A DEA proposed rule (Docket No. DEA-730, 91 FR 62357, published 2026-10-01) would extend the time allowed for reexports of controlled substances outside the European Economic Area from 180 days to 365 days from the date of original CBP release; comments are open. CBP is referenced only as the release-date anchor — drug-enforcement regulation, unrelated to U.S. import-duty calculation and no HTS rate change.",
+      "affectedHts": "无（药品监管公告，不涉税目）",
+      "affectedHtsEn": "None (drug-enforcement regulation; no HTS codes)",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "欧洲经济区以外再出口允许期限",
+          "labelEn": "Reexport window outside the EEA",
+          "oldValue": "自 CBP 原始放行起 180 天（现行）",
+          "oldValueEn": "180 days from original CBP release (current)",
+          "newValue": "拟延长至自 CBP 原始放行起 365 天（拟议规则，征求意见中）",
+          "newValueEn": "Proposed extension to 365 days from original CBP release (proposed rule; comments open)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FR 2026-20084 — Extension of Reexportation Period, 91 FR 62357",
+          "url": "https://www.federalregister.gov/documents/2026/10/01/2026-20084/extension-of-reexportation-period"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-2026-20208",
+      "date": "2026-10-02",
+      "layer": "mfn",
+      "status": "published",
+      "affectedHts": "无（337 救济令针对涉案专利商品，不涉税目税率）",
+      "affectedHtsEn": "None (Section 337 remedy covers the patented articles at issue; no HTS rate change)",
+      "affectedCount": null,
+      "changes": [],
+      "title": "ITC 337-TA-1409 终裁：储物箱/工具箱等签发有限排除令与禁止令（程序性，不改变关税税率）",
+      "titleEn": "ITC 337-TA-1409 final determination: limited exclusion order and cease-and-desist order on storage containers and toolboxes (procedural; no tariff-rate change)",
+      "summary": "美国国际贸易委员会（USITC）就第 337-TA-1409 号调查（Milwaukee Electric Tool 与 Keter Home and Garden 投诉，2024-07-19 立案，91 FR 62746）作出终裁：认定侵犯专利 '026 与 '952，签发有限排除令（LEO）与禁止令（CDO），总统审查期内进口/销售涉案商品须按入境价值 18% 交纳保证金；对专利 '167 未作终裁，调查目标完成日延至 2026-11-02。属针对特定专利侵权商品的贸易救济，不改变任何 HTS 关税税率。",
+      "summaryEn": "The USITC issued its final determination in Investigation No. 337-TA-1409 (complaint by Milwaukee Electric Tool Corp. and Keter Home and Garden Products; instituted 2024-07-19; 91 FR 62746): a Section 337 violation is found as to patents '026 and '952, and a limited exclusion order (LEO) and cease-and-desist order (CDO) issue, with a bond of 18% of entered value on covered articles during Presidential review; no final determination on the '167 patent, and the target date is extended to 2026-11-02. A patent-specific trade remedy — no HTS tariff-rate change.",
+      "sources": [
+        {
+          "title": "FR 2026-20208 — Certain Storage Containers and Toolboxes, Organizers, Component Boxes, and Coolers; Notice of a Commission Determination To Find a Violation of Section 337; Issuance of Remedial Orders, 91 FR 62746",
+          "url": "https://www.federalregister.gov/documents/2026/10/02/2026-20208/certain-storage-containers-and-toolboxes-organizers-component-boxes-and-coolers-notice-of-a"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-02-2026-20229",
+      "date": "2026-10-02",
+      "layer": "mfn",
+      "status": "published",
+      "affectedHts": "无（文书负担公示，不涉税目）",
+      "affectedHtsEn": "None (paperwork-burden notice; no HTS codes)",
+      "affectedCount": null,
+      "changes": [],
+      "title": "CBP 新增信息收集公示：客户代表技术协助门户 CR-TAP（程序性）",
+      "titleEn": "CBP new information collection notice: Client Representative Technical Assistance Portal (CR-TAP) (procedural)",
+      "summary": "CBP 依《文书工作削减法》（PRA）向 OMB 提交全新信息收集申请（OMB 1651-0NEW，91 FR 62738）并开放 30 天意见征询（截止 2026-11-02；此前 2026-05-07 已作 60 天公示，91 FR 24898）：客户代表技术协助门户 CR-TAP 供贸易方通过 ACE Portal 或 clientservicesportal.cbp.gov 向 CBP 报告并跟踪影响 ABI/ACE 电子报关交易的技术问题，CBP 估算年回应约 54,000 次（18,000 名回应人×3 次）、年负担 4,500 小时。属文书负担公示，不改变任何税率或申报要求。",
+      "summaryEn": "Under the Paperwork Reduction Act, CBP submits a new information collection to OMB (OMB 1651-0NEW, 91 FR 62738) with a 30-day comment window closing 2026-11-02 (after a 60-day notice at 91 FR 24898 on 2026-05-07): the Client Representative Technical Assistance Portal (CR-TAP) lets the trade community report, track and resolve technical issues affecting ABI/ACE electronic cargo transactions via the ACE Portal or clientservicesportal.cbp.gov; CBP estimates ~54,000 annual responses (18,000 respondents x 3) and 4,500 annual burden hours. Paperwork-burden notice only — no duty-rate or filing-requirement change.",
+      "sources": [
+        {
+          "title": "FR 2026-20229 — Agency Information Collection Activities; New Collection of Information; Client Representative Technical Assistance Portal (CR-TAP), 91 FR 62738",
+          "url": "https://www.federalregister.gov/documents/2026/10/02/2026-20229/agency-information-collection-activities-new-collection-of-information-client-representative"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-05-2026-20228",
+      "date": "2026-10-05",
+      "layer": "ieepa",
+      "status": "published",
+      "affectedHts": "无（文书负担公示，不涉税目）",
+      "affectedHtsEn": "None (paperwork-burden notice; no HTS codes)",
+      "affectedCount": null,
+      "changes": [],
+      "title": "CBP 信息收集延期公示：IEEPA 法院命令退款 Worksheet（程序性）",
+      "titleEn": "CBP information collection extension notice: Court-Ordered Refunds under the IEEPA Worksheet (procedural)",
+      "summary": "CBP 依《文书工作削减法》（PRA）向 OMB 提交既有信息收集的延期复审（OMB 1651-0149「Court-Ordered Refunds under the IEEPA Worksheet」，91 FR 63299）并开放 30 天意见征询（截止 2026-11-04；此前 2026-07-08 已作 60 天公示，91 FR 42207）。背景：2026-02-20 最高法院 Learning Resources, Inc. v. Trump 判定 2025-02-03 以来依 IEEPA 征收的全部关税违法，CIT 在 Atmus Filtration 案命令 CBP 对未结案报关单不按 IEEPA 税款清算/重新清算，CBP 正开发自动退款工具处理退款量。负担估算：退款 Worksheet 约 330,000 名回应人、年 495,000 次、495,000 小时；CSV 文件替换项约 33,000 人、16,500 小时。属文书负担公示（程序性），不改变任何关税税率，退款资格与流程仍以法院命令及 CBP 后续指引为准，原文未给出退款金额数值。",
+      "summaryEn": "Under the Paperwork Reduction Act, CBP submits an extension review of an existing collection to OMB (OMB 1651-0149, 'Court-Ordered Refunds under the IEEPA Worksheet', 91 FR 63299) with a 30-day comment window closing 2026-11-04 (after a 60-day notice at 91 FR 42207 on 2026-07-08). Background: on 2026-02-20 the Supreme Court in Learning Resources, Inc. v. Trump held all IEEPA tariffs collected since 2025-02-03 unlawful; the CIT's Atmus Filtration orders direct CBP to liquidate/reliquidate unliquidated entries without IEEPA duties, and CBP is building an automated refund tool for the unprecedented refund volume. Burden estimates: refund worksheet ~330,000 respondents, 495,000 annual responses, 495,000 hours; CSV file replacement ~33,000 respondents, 16,500 hours. Paperwork-burden notice only (procedural) — no duty-rate change; refund eligibility and process remain governed by court orders and follow-on CBP guidance; the notice states no refund amounts.",
+      "sources": [
+        {
+          "title": "FR 2026-20228 — Agency Information Collection Activities; Court-Ordered Refunds Under the International Emergency Economic Powers Act Worksheet, 91 FR 63299",
+          "url": "https://www.federalregister.gov/documents/2026/10/05/2026-20228/agency-information-collection-activities-court-ordered-refunds-under-the-international-emergency"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-07-2026-20511",
+      "date": "2026-10-07",
+      "layer": "china301",
+      "status": "published",
+      "title": "对华 301 产品排除顺应性修正：U.S. note 20(vvv)(i)(20) 排除自 2026-07-01 起改按统计税号 8479.90.9591 描述（维持既有排除覆盖，不改税率）",
+      "titleEn": "Conforming amendment to a China Section 301 product exclusion: U.S. note 20(vvv)(i)(20) described under statistical reporting number 8479.90.9591 from July 1, 2026 (coverage maintained, no rate change)",
+      "summary": "因美国国际贸易委员会（USITC）自 2026-07-01 起实施 HTS 十位统计上报口径调整（依 19 U.S.C. 1484(f)），对华 301 调查产品排除中有 5 项受影响；其中 4 项已由 USTR 于 2026-09-02 修正（91 FR 56538），本通知（91 FR 64211）完成最后一项顺应性修正：修改 HTS 第 99 章第三分章美国注释 20(vvv)(i)(20)，在「January 27, 2022」后插入「through June 30, 2026; described in statistical reporting number 8479.90.9591 effective July 1, 2026」——即该排除项下产品自 2026-07-01 起改按新统计税号 8479.90.9591 描述。此系为维持既有产品排除覆盖范围的技术性修正，排除继续免征对应 301 加征关税，不新增或提高任何税率；追溯适用于 2026-07-01 美东时间 0:01 起进境或出仓供消费的货物，CBP 将另行发布入境与执行指引。",
+      "summaryEn": "Following the USITC's July 1, 2026 changes to ten-digit HTSUS statistical reporting categories (under 19 U.S.C. 1484(f)), five China Section 301 product exclusions were affected; four were corrected by USTR on September 2, 2026 (91 FR 56538). This notice (91 FR 64211) makes the final conforming amendment: U.S. note 20(vvv)(i)(20) to subchapter III of chapter 99 is modified by inserting \"through June 30, 2026; described in statistical reporting number 8479.90.9591 effective July 1, 2026\" after \"January 27, 2022\" — i.e., from July 1, 2026 the covered product is described under the new statistical reporting number 8479.90.9591. This is a technical amendment to maintain the pre-existing exclusion coverage: the exclusion continues to bar the additional Section 301 duties, and no rate is added or raised. Retroactive to goods entered for consumption, or withdrawn from warehouse for consumption, on or after 12:01 a.m. EST July 1, 2026; CBP will issue entry guidance.",
+      "affectedHts": "U.S. note 20(vvv)(i)(20) 对应排除产品——统计税号 8479.90.9591（8479.90.95 项下）",
+      "affectedHtsEn": "Product covered by the U.S. note 20(vvv)(i)(20) exclusion — statistical reporting number 8479.90.9591 (within 8479.90.95)",
+      "affectedCount": 1,
+      "changes": [
+        {
+          "label": "排除 20(vvv)(i)(20) 的统计税号表述",
+          "labelEn": "Statistical citation of exclusion 20(vvv)(i)(20)",
+          "oldValue": "插入点前原文止于「January 27, 2022.」（被替代的旧统计税号本通知未载明）",
+          "oldValueEn": "Prior text at the insertion point ends with \"January 27, 2022.\" (the superseded statistical citation is not stated in this notice)",
+          "newValue": "through June 30, 2026; described in statistical reporting number 8479.90.9591 effective July 1, 2026（追溯适用）",
+          "newValueEn": "through June 30, 2026; described in statistical reporting number 8479.90.9591 effective July 1, 2026 (retroactive)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FR 2026-20511 — Notice of Conforming Amendment to Product Exclusion: China's Acts, Policies, and Practices Related to Technology Transfer, Intellectual Property, and Innovation, 91 FR 64211",
+          "url": "https://www.federalregister.gov/documents/2026/10/07/2026-20511/notice-of-conforming-amendment-to-product-exclusion-chinas-acts-policies-and-practices-related-to"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08-2026-20672",
+      "date": "2026-10-08",
+      "layer": "mfn",
+      "status": "published",
+      "title": "ITC 337 立案调查：特定移动电子设备及其组件（337-TA-1525，trinamiX 诉 Apple）（程序性）",
+      "titleEn": "ITC institution of Section 337 investigation: certain mobile electronic devices and components thereof (337-TA-1525, trinamiX v. Apple) (procedural)",
+      "summary": "美国国际贸易委员会（USITC）公告（91 FR 64398）：应 trinamiX Sensing LLC（Austin, TX）与 trinamiX GmbH（德国）2026-09-03 提交、2026-09-17 补充的申诉，委员会已于 2026-10-05 决定对特定移动电子设备及其组件立案 337 调查（编号 337-TA-1525）——涉案产品范围为 iPhone、iPad 及其处理器与 TrueDepth 摄像头等组件（具备人脸认证、3D 传感和/或材料检测功能的 VCSEL、泛光照明 VCSEL、近红外摄像头模组），被申诉人为 Apple Inc.，涉及 6 项专利（'925、'421、'334、'760、'394、'352），申诉方请求最终发布有限排除令与停止令。本公告系 337 立案程序性公示，立案本身不改变任何关税税率；后续若裁定违反 337 条款可能产生排除令效果，本站将持续跟踪。",
+      "summaryEn": "The U.S. International Trade Commission (91 FR 64398) gives notice that, on a complaint filed September 3, 2026 and supplemented September 17, 2026 by trinamiX Sensing LLC (Austin, TX) and trinamiX GmbH (Germany), the Commission instituted on October 5, 2026 a Section 337 investigation (No. 337-TA-1525) concerning certain mobile electronic devices and components thereof — the accused products are iPhones and iPads and components such as processors and TrueDepth camera modules (VCSEL, flood-illumination VCSEL, and near-infrared camera components with face authentication, 3D-sensing, and/or material detection capabilities). Respondent: Apple Inc.; six patents alleged ('925, '421, '334, '760, '394, '352). Complainants request a limited exclusion order and cease-and-desist orders. Institution itself changes no tariff rates; an exclusion order could result if a violation is ultimately found.",
+      "affectedHts": "原文未列明具体 HTS 税目（涉案产品为 iPhone/iPad 及其处理器、TrueDepth 摄像头模组等组件）",
+      "affectedHtsEn": "No specific HTS numbers are listed in the notice (accused products: iPhones/iPads and components such as processors and TrueDepth camera modules)",
+      "affectedCount": null,
+      "changes": [],
+      "sources": [
+        {
+          "title": "FR 2026-20672 — Certain Mobile Electronic Devices and Components Thereof; Institution of Investigation, 91 FR 64398",
+          "url": "https://www.federalregister.gov/documents/2026/10/08/2026-20672/certain-mobile-electronic-devices-and-components-thereof-institution-of-investigation"
+        }
+      ]
+    },
+    {
+      "id": "2026-10-08-2026-20650",
+      "date": "2026-10-08",
+      "layer": "mfn",
+      "status": "published",
+      "title": "CBP《低值货物》规则拟案：重构 ≤$2,500 简易申报（ET11）并新设邮路电子简易申报（ET13）（征求意见至 2026-12-07）",
+      "titleEn": "CBP NPRM \"Low-Value Shipments\": overhaul of informal entry (≤$2,500, ET11) and new electronic informal mail entry (ET13) (comments due December 7, 2026)",
+      "summary": "美国海关与边境保护局（CBP）发布规则拟案（91 FR 64532，docket USCBP-2026-0298），在低值免税（de minimis）豁免已中止的背景下重构低值货物通关制度，修订 19 CFR 第 113/128/141/143/145 部分：① informal entry（ET11）申报期限拟由到港后 15 天收紧为「进境当日或之前」，并新增「最终交付方」数据元；② 拟删除 HTSUS 第 99 章第三/四分章货物（如 232/301 措施货物）$250 的简易申报资格上限——$251–$2,500 的相关货物拟不再禁止简易申报；③ 邮路 ≤$2,500 货物拟强制经新设的电子简易申报 ET13 申报（新增申报人/承运人数据元），未在进境后 15 天内申报的邮包拟视为自愿弃货（由 USPS 按其规程处理，可能销毁或退回寄件人）；④ 拟要求所有 ET11/ET13 申报人取得基本进口与入境保证金（bond），并对其违约金设 $1,000 下限。系拟议规则，征求意见截止 2026-12-07，尚未生效，不改变任何关税税率；条文细节详见 FR 原文。",
+      "summaryEn": "CBP published a notice of proposed rulemaking (91 FR 64532; docket USCBP-2026-0298) to rework low-value shipment processing following the suspension of the de minimis exemption, amending 19 CFR parts 113, 128, 141, 143, and 145: (1) the informal entry (ET11) deadline would tighten from 15 days after arrival to on or prior to the date of importation, with a new final deliver-to party data element; (2) the $250 informal-entry eligibility cap for HTSUS Chapter 99 Subchapters III/IV goods (e.g., Section 232/301 goods) would be removed, so goods of $251–$2,500 would no longer be barred from informal entry; (3) mail shipments of $2,500 or less would be required to file via a new electronic informal mail entry type 13 (new data elements for filers and carriers), and mail articles not entered within 15 days of importation would be deemed voluntarily abandoned (processed per USPS procedures, possibly destroyed or returned); (4) all ET11/ET13 filers would need a basic importation and entry bond, with a $1,000 floor on liquidated damages. Proposed rule only — comments due December 7, 2026; not yet in effect and no tariff rates are changed.",
+      "affectedHts": "不针对特定 HTS 税目——适用于申报价值 ≤$2,500 的低值货物（含第 99 章第三/四分章临时贸易措施货物：$251–$2,500 段拟放开简易申报）；法规修订范围为 19 CFR 113/128/141/143/145",
+      "affectedHtsEn": "Not tied to specific HTS lines — applies to low-value shipments valued at $2,500 or less (including Chapter 99 Subchapters III/IV goods, where informal entry would be opened for the $251–$2,500 range); amends 19 CFR parts 113, 128, 141, 143, 145",
+      "affectedCount": null,
+      "changes": [
+        {
+          "label": "ET11 简易申报期限",
+          "labelEn": "Informal entry (ET11) filing deadline",
+          "oldValue": "货物到港/到达目的港后 15 个日历日内申报（19 CFR 141.5）",
+          "oldValueEn": "Within 15 calendar days after landing/arrival (19 CFR 141.5)",
+          "newValue": "拟改为进境当日或之前申报（拟议）",
+          "newValueEn": "Proposed: on or prior to the date of importation (proposed)"
+        },
+        {
+          "label": "第 99 章三/四分章货物简易申报资格",
+          "labelEn": "Informal entry eligibility for Chapter 99 Subchapters III/IV goods",
+          "oldValue": "仅 ≤$250 可走简易申报；$251–$2,500 的第 99 章三/四分章货物（232/301 等措施货物）禁止简易申报",
+          "oldValueEn": "Only goods valued at $250 or less qualified; goods of $251–$2,500 classified in Chapter 99 Subchapters III/IV (e.g., Section 232/301 goods) were barred from informal entry",
+          "newValue": "拟删除 $250 上限：$251–$2,500 的相关货物拟不再禁止简易申报（拟议）",
+          "newValueEn": "Proposed removal of the $250 cap: such goods of $251–$2,500 would no longer be barred from informal entry (proposed)"
+        },
+        {
+          "label": "邮路低值货物申报",
+          "labelEn": "Filing for low-value mail shipments",
+          "oldValue": "CBP 关员人工制作邮路报关单，收件人后续经邮政缴纳税款",
+          "oldValueEn": "CBP officers manually prepare the mail entry form; the recipient pays duties, taxes, and fees afterwards through the Postal Service",
+          "newValue": "拟强制经新设电子简易申报 ET13 申报（新增申报人/承运人数据元）；未在进境后 15 天内申报的邮包拟视为自愿弃货（拟议）",
+          "newValueEn": "Proposed: mandatory filing via new electronic informal mail entry type 13 (new data elements for filers and carriers); mail articles not entered within 15 days of importation deemed voluntarily abandoned (proposed)"
+        },
+        {
+          "label": "简易申报保证金",
+          "labelEn": "Bonding for informal entries",
+          "oldValue": "仅特定情形需保证金（现行邮路简易申报已有 bond 要求），多数 ET11 申报无需 bond",
+          "oldValueEn": "Bonds required only in certain situations (the current informal postal entry process already requires one); most ET11 entries are unbonded",
+          "newValue": "拟要求所有 ET11/ET13 申报人取得基本进口与入境保证金（STB 或连续 bond，条件按 19 CFR 113.62），违约金拟设 $1,000 下限（拟议）",
+          "newValueEn": "Proposed: all ET11/ET13 filers must obtain a basic importation and entry bond (STB or continuous, conditions per 19 CFR 113.62), with a $1,000 floor on liquidated damages (proposed)"
+        }
+      ],
+      "sources": [
+        {
+          "title": "FR 2026-20650 — Low-Value Shipments, 91 FR 64532",
+          "url": "https://www.federalregister.gov/documents/2026/10/08/2026-20650/low-value-shipments"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+    "name": "invoicetariff/us-tariff-lookup",
+    "description": "Offline US import-tariff reference data: HTS code search (English + Chinese), ruleset meta and a machine-readable rule-change changelog. Data bundled, zero dependencies, no network.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "tariff",
+        "hts",
+        "hs-codes",
+        "customs",
+        "us-import",
+        "section-301",
+        "section-232",
+        "trade",
+        "landed-cost"
+    ],
+    "homepage": "https://invoicetariff.com",
+    "authors": [
+        {
+            "name": "InvoiceTariff",
+            "homepage": "https://invoicetariff.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/invoicetariff/us-tariff-lookup-php/issues",
+        "source": "https://github.com/invoicetariff/us-tariff-lookup-php"
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "InvoiceTariff\\UsTariffLookup\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/us-tariff"
+    ],
+    "scripts": {
+        "test": "php tests/GoldenTest.php"
+    }
+}
